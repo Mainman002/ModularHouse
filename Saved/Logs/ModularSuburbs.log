@@ -989,3 +989,466 @@ LogInit: Object subsystem initialized
 [2017.08.19-00.58.50:316][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4872_Auto1C78A5DD14870F592CF16EDAFED67DDBA.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872_Auto1.uasset'
 [2017.08.19-00.58.50:317][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872_Auto1.uasset
 [2017.08.19-00.58.50:317][629]LogFileHelpers: Auto-saving content packages took 2.580
+[2017.08.19-01.32.18:475][643]LogSavePackage: Save=6.78ms
+[2017.08.19-01.32.18:475][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_AA299B8F84DAB5AB9D640A198968706F2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.uasset'
+[2017.08.19-01.32.18:514][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.uasset
+[2017.08.19-01.32.18:532][643]LogSavePackage: Save=6.85ms
+[2017.08.19-01.32.18:532][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_BC8E49621463C8739BA9DD7B0D74625C9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.uasset'
+[2017.08.19-01.32.18:539][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.uasset
+[2017.08.19-01.32.18:558][643]LogSavePackage: Save=7.97ms
+[2017.08.19-01.32.18:558][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_CC447DA33425D22E37A663F95E6FEFC2C.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.uasset'
+[2017.08.19-01.32.18:565][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.uasset
+[2017.08.19-01.32.18:582][643]LogSavePackage: Save=6.21ms
+[2017.08.19-01.32.18:582][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_CutoutF008500246F20585D3E0B7890A54DE3D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.uasset'
+[2017.08.19-01.32.18:588][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.uasset
+[2017.08.19-01.32.18:605][643]LogSavePackage: Save=6.44ms
+[2017.08.19-01.32.18:605][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_30_CutoutCE428B2C4194BE2478A117BAFDDD3D89.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.uasset'
+[2017.08.19-01.32.18:611][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.uasset
+[2017.08.19-01.32.18:629][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.18:629][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_32_CutoutAF78828841B899532441548482C46290.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.uasset'
+[2017.08.19-01.32.18:636][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.uasset
+[2017.08.19-01.32.18:653][643]LogSavePackage: Save=6.73ms
+[2017.08.19-01.32.18:653][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_34_CutoutCCE94D824E20C596DF91B2BEA0B3610F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.uasset'
+[2017.08.19-01.32.18:660][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.uasset
+[2017.08.19-01.32.18:678][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.18:678][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_36_Cutout53B1736A4E1C46DE26B9118A9532BCFE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.uasset'
+[2017.08.19-01.32.18:684][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.uasset
+[2017.08.19-01.32.18:703][643]LogSavePackage: Save=6.03ms
+[2017.08.19-01.32.18:703][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_FooterCA92CC6F4D50F0451F8EED86E980B9D7.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.uasset'
+[2017.08.19-01.32.18:710][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.uasset
+[2017.08.19-01.32.18:727][643]LogSavePackage: Save=6.10ms
+[2017.08.19-01.32.18:727][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_29F3CBAB7436CDB8F7215AA85E64282DE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.uasset'
+[2017.08.19-01.32.18:796][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.uasset
+[2017.08.19-01.32.18:817][643]LogSavePackage: Save=6.76ms
+[2017.08.19-01.32.18:817][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_Beginning1840245D465624BA6C2C23A9CF530101.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.uasset'
+[2017.08.19-01.32.18:824][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.uasset
+[2017.08.19-01.32.18:841][643]LogSavePackage: Save=5.85ms
+[2017.08.19-01.32.18:841][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_End608CBED64D51F247DE0683A9A8063F27.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.uasset'
+[2017.08.19-01.32.18:849][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.uasset
+[2017.08.19-01.32.18:866][643]LogSavePackage: Save=6.29ms
+[2017.08.19-01.32.18:866][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2436DCE65BA44E0BF5643280988F357DB328.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.uasset'
+[2017.08.19-01.32.18:873][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.uasset
+[2017.08.19-01.32.18:889][643]LogSavePackage: Save=6.13ms
+[2017.08.19-01.32.18:889][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_24448BDC301C47B9F92D47EC30A7A4C9C124.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.uasset'
+[2017.08.19-01.32.18:897][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.uasset
+[2017.08.19-01.32.18:914][643]LogSavePackage: Save=6.26ms
+[2017.08.19-01.32.18:914][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2448AF92AD5B44CE7B0326F76ABB7A8485F8.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.uasset'
+[2017.08.19-01.32.18:921][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.uasset
+[2017.08.19-01.32.18:938][643]LogSavePackage: Save=6.09ms
+[2017.08.19-01.32.18:938][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2452353EC9F546B247EEB21401A9266CEE99.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.uasset'
+[2017.08.19-01.32.18:952][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.uasset
+[2017.08.19-01.32.18:969][643]LogSavePackage: Save=6.92ms
+[2017.08.19-01.32.18:969][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2454785956804BB8A24D736898A0CC26BDAB.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.uasset'
+[2017.08.19-01.32.18:976][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.uasset
+[2017.08.19-01.32.18:993][643]LogSavePackage: Save=6.11ms
+[2017.08.19-01.32.18:993][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2460D7BAD6F44ABD17205AA867B7C3602782.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.uasset'
+[2017.08.19-01.32.18:999][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.uasset
+[2017.08.19-01.32.19:069][643]LogSavePackage: Save=59.08ms
+[2017.08.19-01.32.19:069][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_24624126EA534E3FBAC0CC6852A0C3C0168D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.uasset'
+[2017.08.19-01.32.19:076][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.uasset
+[2017.08.19-01.32.19:094][643]LogSavePackage: Save=6.36ms
+[2017.08.19-01.32.19:094][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_247214F233804E3CBC8F2E3772AE485976BA.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.uasset'
+[2017.08.19-01.32.19:101][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.uasset
+[2017.08.19-01.32.19:117][643]LogSavePackage: Save=6.14ms
+[2017.08.19-01.32.19:118][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2836375E59414BCB9AEED1C10E8BCE6E0F62.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.uasset'
+[2017.08.19-01.32.19:125][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.uasset
+[2017.08.19-01.32.19:142][643]LogSavePackage: Save=6.03ms
+[2017.08.19-01.32.19:142][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_28448A73E0874B40B04DA3B2D2938E56B49D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.uasset'
+[2017.08.19-01.32.19:148][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.uasset
+[2017.08.19-01.32.19:167][643]LogSavePackage: Save=7.77ms
+[2017.08.19-01.32.19:167][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2848E86F0148498247859A0A0D9BBE080CD4.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.uasset'
+[2017.08.19-01.32.19:173][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.uasset
+[2017.08.19-01.32.19:191][643]LogSavePackage: Save=6.32ms
+[2017.08.19-01.32.19:191][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_28527EAC34A44341B4AC3F3364A9F662D3C7.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.uasset'
+[2017.08.19-01.32.19:197][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.uasset
+[2017.08.19-01.32.19:215][643]LogSavePackage: Save=6.44ms
+[2017.08.19-01.32.19:215][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2854EC298E8B4095ADC69E3E0AA7B35EB386.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.uasset'
+[2017.08.19-01.32.19:221][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.uasset
+[2017.08.19-01.32.19:240][643]LogSavePackage: Save=6.20ms
+[2017.08.19-01.32.19:240][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2860AA88A3794C670DA8647718A353993677.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.uasset'
+[2017.08.19-01.32.19:246][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.uasset
+[2017.08.19-01.32.19:265][643]LogSavePackage: Save=6.36ms
+[2017.08.19-01.32.19:265][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2862596E2B544B0188E621B1E48082D115B9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.uasset'
+[2017.08.19-01.32.19:272][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.uasset
+[2017.08.19-01.32.19:291][643]LogSavePackage: Save=6.00ms
+[2017.08.19-01.32.19:291][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_287216D8C49B40F6AC589CA77086749A4F49.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.uasset'
+[2017.08.19-01.32.19:298][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.uasset
+[2017.08.19-01.32.19:315][643]LogSavePackage: Save=6.16ms
+[2017.08.19-01.32.19:316][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3236E2C00FFC43974B1FA05E09B7017C0719.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.uasset'
+[2017.08.19-01.32.19:322][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.uasset
+[2017.08.19-01.32.19:342][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.19:342][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_324481CB859B450660A1D62D8DBBE9CCBA60.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.uasset'
+[2017.08.19-01.32.19:348][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.uasset
+[2017.08.19-01.32.19:366][643]LogSavePackage: Save=6.68ms
+[2017.08.19-01.32.19:366][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_324895AB07794A80F6FA33CB4DA8C31072B3.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.uasset'
+[2017.08.19-01.32.19:381][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.uasset
+[2017.08.19-01.32.19:398][643]LogSavePackage: Save=6.30ms
+[2017.08.19-01.32.19:398][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3252C327562D40AEA84704246DB591F16B7F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.uasset'
+[2017.08.19-01.32.19:405][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.uasset
+[2017.08.19-01.32.19:424][643]LogSavePackage: Save=6.23ms
+[2017.08.19-01.32.19:424][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_325467E6F3B2448A133C3A3A8C9F94C5184F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.uasset'
+[2017.08.19-01.32.19:431][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.uasset
+[2017.08.19-01.32.19:449][643]LogSavePackage: Save=6.42ms
+[2017.08.19-01.32.19:449][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_32607F1A072C4FF7DB822743B7B52431F272.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.uasset'
+[2017.08.19-01.32.19:456][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.uasset
+[2017.08.19-01.32.19:474][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.19:474][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3262837BAEDC4BF5938C02D1FB8BFEDEB6AD.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.uasset'
+[2017.08.19-01.32.19:481][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.uasset
+[2017.08.19-01.32.19:500][643]LogSavePackage: Save=6.49ms
+[2017.08.19-01.32.19:500][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3272623207FF450D3F502312D4B0ED2DC9DB.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.uasset'
+[2017.08.19-01.32.19:506][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.uasset
+[2017.08.19-01.32.19:524][643]LogSavePackage: Save=6.52ms
+[2017.08.19-01.32.19:524][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40365AEEA0CE4EBCA11B9CF6108906ED59C6.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.uasset'
+[2017.08.19-01.32.19:531][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.uasset
+[2017.08.19-01.32.19:549][643]LogSavePackage: Save=6.04ms
+[2017.08.19-01.32.19:549][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4044EC8CE1E140E3813485425CB9E04B2CAE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.uasset'
+[2017.08.19-01.32.19:557][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.uasset
+[2017.08.19-01.32.19:576][643]LogSavePackage: Save=6.91ms
+[2017.08.19-01.32.19:576][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4048DFC2B6D04F2B8300507C79B2CE787F43.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.uasset'
+[2017.08.19-01.32.19:582][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.uasset
+[2017.08.19-01.32.19:600][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:600][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4052E9636F204D206F3356172885A94EFCB9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.uasset'
+[2017.08.19-01.32.19:607][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.uasset
+[2017.08.19-01.32.19:625][643]LogSavePackage: Save=6.26ms
+[2017.08.19-01.32.19:625][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40541123BF6F490A02C0F0B9F3808D65CBED.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.uasset'
+[2017.08.19-01.32.19:631][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.uasset
+[2017.08.19-01.32.19:649][643]LogSavePackage: Save=6.16ms
+[2017.08.19-01.32.19:649][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40605B9C0B2041AC000F5E53E0932F7ABBD2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.uasset'
+[2017.08.19-01.32.19:656][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.uasset
+[2017.08.19-01.32.19:673][643]LogSavePackage: Save=6.40ms
+[2017.08.19-01.32.19:673][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40624455AAB94340C5280D756C9E1BEF01DF.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.uasset'
+[2017.08.19-01.32.19:680][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.uasset
+[2017.08.19-01.32.19:699][643]LogSavePackage: Save=6.87ms
+[2017.08.19-01.32.19:699][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40729FD99A6E471467AA9C67E7992212F294.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.uasset'
+[2017.08.19-01.32.19:705][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.uasset
+[2017.08.19-01.32.19:724][643]LogSavePackage: Save=6.19ms
+[2017.08.19-01.32.19:724][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4436A40E63374DEB75A13ECE44BAB3E6C113.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.uasset'
+[2017.08.19-01.32.19:730][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.uasset
+[2017.08.19-01.32.19:749][643]LogSavePackage: Save=6.11ms
+[2017.08.19-01.32.19:749][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_444454A2E9234219FA3899448FB4C5EA7C7F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.uasset'
+[2017.08.19-01.32.19:755][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.uasset
+[2017.08.19-01.32.19:797][643]LogSavePackage: Save=30.44ms
+[2017.08.19-01.32.19:797][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4448C7EDF48140A1441A1C27ECA3FD58DDE2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.uasset'
+[2017.08.19-01.32.19:803][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.uasset
+[2017.08.19-01.32.19:821][643]LogSavePackage: Save=6.28ms
+[2017.08.19-01.32.19:821][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44524BFB2ABB41D92D7BBF62EDAED7A31AF4.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.uasset'
+[2017.08.19-01.32.19:827][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.uasset
+[2017.08.19-01.32.19:846][643]LogSavePackage: Save=6.10ms
+[2017.08.19-01.32.19:846][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44540EB7DAB4488B299BC6367CA95812CA46.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.uasset'
+[2017.08.19-01.32.19:852][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.uasset
+[2017.08.19-01.32.19:871][643]LogSavePackage: Save=6.31ms
+[2017.08.19-01.32.19:871][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4460AA997FCC43B20FC8F056E6B6167240FA.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.uasset'
+[2017.08.19-01.32.19:877][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.uasset
+[2017.08.19-01.32.19:896][643]LogSavePackage: Save=6.46ms
+[2017.08.19-01.32.19:896][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_446297A82EAF453BFF25C0E14FB5288FEF3D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.uasset'
+[2017.08.19-01.32.19:902][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.uasset
+[2017.08.19-01.32.19:919][643]LogSavePackage: Save=5.98ms
+[2017.08.19-01.32.19:920][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44725FEF35F04FABB6F485E9468FDFCEF4EC.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.uasset'
+[2017.08.19-01.32.19:926][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.uasset
+[2017.08.19-01.32.19:945][643]LogSavePackage: Save=6.65ms
+[2017.08.19-01.32.19:945][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4836E8FFE3AA468A9C77417A1F96E027593A.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.uasset'
+[2017.08.19-01.32.19:952][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.uasset
+[2017.08.19-01.32.19:970][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:970][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_48449A0542B04C926A4FB95190AA2E1DF980.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.uasset'
+[2017.08.19-01.32.19:976][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.uasset
+[2017.08.19-01.32.19:995][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:995][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_484865AE344941941B26EE963B881EE49BE9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.uasset'
+[2017.08.19-01.32.20:001][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.uasset
+[2017.08.19-01.32.20:019][643]LogSavePackage: Save=6.33ms
+[2017.08.19-01.32.20:019][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_485226ABE6CE436096806E0DCBB1B7F57D65.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.uasset'
+[2017.08.19-01.32.20:025][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.uasset
+[2017.08.19-01.32.20:044][643]LogSavePackage: Save=6.60ms
+[2017.08.19-01.32.20:044][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4854D2FC61CD42F6C267B1A7E7A92C611F70.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.uasset'
+[2017.08.19-01.32.20:050][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.uasset
+[2017.08.19-01.32.20:069][643]LogSavePackage: Save=6.43ms
+[2017.08.19-01.32.20:069][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_486017677E77404DA0416E3C0B8E9CAF6F61.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.uasset'
+[2017.08.19-01.32.20:074][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.uasset
+[2017.08.19-01.32.20:093][643]LogSavePackage: Save=6.47ms
+[2017.08.19-01.32.20:093][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4862434F1DB442FE1A69A4DA4A87B62AFBA3.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.uasset'
+[2017.08.19-01.32.20:097][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.uasset
+[2017.08.19-01.32.20:115][643]LogSavePackage: Save=5.94ms
+[2017.08.19-01.32.20:115][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_487223018A9646A4EAFF150F19B84C5277AE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.uasset'
+[2017.08.19-01.32.20:118][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.uasset
+[2017.08.19-01.32.27:736][469]Cmd: QUIT_EDITOR
+[2017.08.19-01.32.27:768][469]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.19-01.32.27:779][469]LogExit: Preparing to exit.
+[2017.08.19-01.32.28:278][469]LogExit: Editor shut down
+[2017.08.19-01.32.28:285][469]LogExit: Transaction tracking system shut down
+[2017.08.19-01.32.28:347][469]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.19-01.32.28:347][469]LogExit: Object subsystem successfully closed.
+[2017.08.19-01.32.28:383][469]LogD3D11RHI: Shutdown
+[2017.08.19-01.32.28:383][469]LogD3D11RHI: CleanupD3DDevice
+[2017.08.19-01.32.28:494][469]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.19-01.32.28:517][469]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/Developers/Justin/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Saved/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.19-01.32.28:519][469]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.19-01.32.29:615][469]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.19-01.32.29:863][469]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.19-01.32.29:863][469]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.19-01.32.29:870][469]LogDerivedDataCache: Shutdown
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.19-01.32.29:870][469]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.19-01.32.29:871][469]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.19-01.32.29:871][469]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.19-01.32.29:871][469]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF3B3FF2-4DEE-2436-1409-7191256680E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=342c92ed46394c2f005e089436139f89%7Cff45075c8a9c443397ddfdec1e4285a2%7C7e32f187-ea15-4ba5-b983-da622b4f316d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.19-01.32.29:878][469]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.19-01.32.29:885][469]LogExit: Exiting.
+[2017.08.19-01.32.29:899][469]Log file closed, 08/18/17 18:32:29
