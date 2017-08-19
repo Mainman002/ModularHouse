@@ -1,0 +1,1454 @@
+﻿Log file open, 08/18/17 17:46:21
+LogInit:Display: Running engine for game: ModularSuburbs
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-55746675) SRandInit(-55746675).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.851784
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.19-00.46.22:939][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.19-00.46.22:939][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.19-00.46.22:992][  0]LogInit: Computer: DESKTOP-9RLMK0I
+[2017.08.19-00.46.22:992][  0]LogInit: User: Justin
+[2017.08.19-00.46.22:992][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.19-00.46.22:992][  0]LogInit: High frequency timer resolution =4.232973 MHz
+[2017.08.19-00.46.22:992][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.19-00.46.22:992][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.19-00.46.22:992][  0]LogMemory: Process Physical Memory: 273.29 MB used, 273.29 MB peak
+[2017.08.19-00.46.22:992][  0]LogMemory: Process Virtual Memory: 261.11 MB used, 261.11 MB peak
+[2017.08.19-00.46.22:992][  0]LogMemory: Physical Memory: 4230.07 MB used,  12058.50 MB free, 16288.57 MB total
+[2017.08.19-00.46.22:992][  0]LogMemory: Virtual Memory: 638.63 MB used,  12058.50 MB free, 134217728.00 MB total
+[2017.08.19-00.46.23:770][  0]LogInit: Using OS detected language (en-US).
+[2017.08.19-00.46.23:770][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.19-00.46.23:983][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.19-00.46.32:220][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.19-00.46.32:737][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.19-00.46.32:737][  0]LogD3D11RHI:       8119/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.19-00.46.32:739][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.19-00.46.32:739][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.19-00.46.32:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.19-00.46.32:744][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.19-00.46.32:744][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.19-00.46.32:744][  0]LogWindows: EnumDisplayDevices:
+[2017.08.19-00.46.32:744][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.19-00.46.32:745][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.19-00.46.32:745][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.19-00.46.32:745][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.19-00.46.32:745][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.19-00.46.32:745][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.19-00.46.32:745][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.08.19-00.46.32:745][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.08.19-00.46.32:745][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.19-00.46.33:413][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.19-00.46.33:425][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.19-00.46.33:520][  0]LogShaderCompilers: Guid format shader working directory is 32 characters bigger than the processId version (D:/ModularHouse/Intermediate/Shaders/WorkingDirectory/9136/).
+[2017.08.19-00.46.33:520][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin/AppData/Local/Temp/UnrealShaderWorkingDir/CF4C8AA64DC23DC2F3B4E2B2D8D0E8A3/'.
+[2017.08.19-00.46.33:520][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.19-00.46.39:638][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.19-00.46.39:752][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.19-00.46.39:868][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.19-00.46.39:987][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.19-00.46.40:105][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.19-00.46.40:200][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.19-00.46.40:294][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.19-00.46.40:388][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.19-00.46.40:494][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.19-00.46.40:621][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.19-00.46.40:751][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.19-00.46.40:868][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.19-00.46.40:970][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.19-00.46.41:059][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.19-00.46.41:169][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.19-00.46.41:385][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.19-00.46.41:385][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.19-00.46.41:495][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.19-00.46.41:733][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.19-00.46.41:786][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.19-00.46.41:890][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.19-00.46.41:978][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.19-00.46.42:074][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.19-00.46.42:193][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.19-00.46.42:193][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.19-00.46.44:317][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.19-00.46.45:643][  0]LogDerivedDataCache: Loaded boot cache 1.33s 90MB C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.19-00.46.45:643][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.19-00.46.45:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/ModularHouse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.19-00.46.45:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.19-00.46.45:644][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/ModularHouse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.19-00.46.45:644][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.19-00.46.45:731][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.19-00.46.45:743][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.19-00.46.45:757][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.19-00.46.45:758][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.19-00.46.45:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.19-00.46.45:779][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.19-00.46.54:810][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.19-00.46.55:191][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.19-00.46.57:428][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.19-00.46.57:686][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.19-00.46.57:832][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.19-00.46.57:832][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.19-00.46.57:832][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.19-00.47.09:155][  0]LogNetVersion: ModularSuburbs , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3462518015)
+[2017.08.19-00.47.09:501][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.08.19-00.47.09:586][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.034771 seconds
+[2017.08.19-00.47.09:593][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.19-00.47.09:593][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.19-00.47.09:593][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.19-00.47.09:722][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.19-00.48.17:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.19-00.48.17:153][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.19-00.48.18:970][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.19-00.48.20:167][  0]SourceControl: Info Source control is disabled
+[2017.08.19-00.48.20:487][  0]SourceControl: Info Source control is disabled
+[2017.08.19-00.48.20:595][  0]SourceControl: Info Source control is disabled
+[2017.08.19-00.48.20:725][  0]SourceControl: Info Source control is disabled
+[2017.08.19-00.48.22:754][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.19-00.48.24:528][  0]LogEngine: Initializing Engine...
+[2017.08.19-00.48.24:551][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.19-00.48.25:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.19-00.48.25:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.19-00.48.26:009][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.19-00.48.26:024][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.19-00.48.26:037][  0]LogInit: FAudioDevice initialized.
+[2017.08.19-00.48.26:117][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.19-00.48.26:144][  0]LogInit: Texture streaming: Enabled
+[2017.08.19-00.48.26:847][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.19-00.48.27:654][  0]LogInit: Transaction tracking system initialized
+[2017.08.19-00.48.28:360][  0]BlueprintLog: New page: Editor Load
+[2017.08.19-00.48.31:248][  0]LocalizationService: Info Localization service is disabled
+[2017.08.19-00.48.33:206][  0]LogConsoleResponse:Display: 
+[2017.08.19-00.48.35:243][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.19-00.48.35:243][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.19-00.48.35:870][  0]LogFileCache: Scanning file cache for directory 'D:/ModularHouse/Content/' took 0.01s
+[2017.08.19-00.48.38:675][  0]SourceControl: Info Source control is disabled
+[2017.08.19-00.48.38:690][  0]Cmd: MAP LOAD FILE="D:/ModularHouse/Content/ModularSuburbanHouse/Maps/SuburbanDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.19-00.48.38:690][  0]LightingResults: New page: Lighting Build
+[2017.08.19-00.48.38:773][  0]MapCheck: New page: Map Check
+[2017.08.19-00.48.38:773][  0]LightingResults: New page: Lighting Build
+[2017.08.19-00.48.38:795][  0]LogAIModule: Creating AISystem for world SuburbanDemo
+[2017.08.19-00.48.38:796][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.19-00.48.38:810][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.19-00.48.38:885][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.031ms to complete.
+[2017.08.19-00.48.38:885][  0]LogFileHelpers: Loading map 'SuburbanDemo' took 0.195
+[2017.08.19-00.48.39:316][  0]LogCollectionManager: Loaded 0 collections in 0.003160 seconds
+[2017.08.19-00.48.39:533][  0]LogFileCache: Scanning file cache for directory 'D:/ModularHouse/Saved/Collections/' took 0.01s
+[2017.08.19-00.48.39:533][  0]LogFileCache: Scanning file cache for directory 'D:/ModularHouse/Content/Developers/Justin/Collections/' took 0.01s
+[2017.08.19-00.48.39:533][  0]LogFileCache: Scanning file cache for directory 'D:/ModularHouse/Content/Collections/' took 0.01s
+[2017.08.19-00.48.39:533][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.19-00.48.39:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2329 classes and 491 folders.
+[2017.08.19-00.48.39:724][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.19-00.48.41:211][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.19-00.48.41:357][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.19-00.48.41:636][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.19-00.48.41:659][  0]LogSlate: Took 0.016339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.19-00.48.41:686][  0]LogSlate: Took 0.022072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.19-00.48.41:709][  0]LogSlate: Took 0.014710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.19-00.48.42:345][  0]LogRenderer: Reallocating scene render targets to support 1200x480 NumSamples 1 (Frame:1).
+[2017.08.19-00.48.42:530][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.19-00.48.42:738][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.19-00.48.42:738][  0]LogLoad: (Engine Initialization) Total time: 154.62 seconds
+[2017.08.19-00.48.42:738][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.08.19-00.48.42:738][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.19-00.48.42:738][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.19-00.48.43:077][  0]LogOcInput: OculusInput pre-init called
+[2017.08.19-00.48.43:100][  0]LogHMD: Starting GearVRController plugin
+[2017.08.19-00.48.43:116][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.19-00.48.43:418][  1]LogAssetRegistry: Asset discovery search completed in 93.9386 seconds
+[2017.08.19-00.48.43:420][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.19-00.48.43:420][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.08.19-00.48.47:432][ 13]LogSlate: Took 0.016309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-00.57.48:869][593]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_A.fbx]
+[2017.08.19-00.57.48:880][593]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-00.57.48:946][593]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_A.fbx
+[2017.08.19-00.57.48:967][593]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.49:018][593]LogFbx:Warning: Triangulating static mesh SM_Door_28_Casing_A
+[2017.08.19-00.57.49:064][593]LogStaticMesh: Building static mesh SM_Door_28_Casing_A...
+[2017.08.19-00.57.49:140][593]LogStaticMesh: Built static mesh [0.10s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.SM_Door_28_Casing_A
+[2017.08.19-00.57.49:177][593]LogStaticMesh:Warning: SM_Door_28_Casing_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.08.19-00.57.49:282][593]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.49:283][593]FBXImport:Warning: Warning SM_Door_28_Casing_A has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.08.19-00.57.49:356][593]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_B.fbx]
+[2017.08.19-00.57.49:369][593]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.19-00.57.49:407][593]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_B.fbx
+[2017.08.19-00.57.49:415][593]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.49:419][593]LogFbx:Warning: Triangulating static mesh SM_Door_28_Casing_B
+[2017.08.19-00.57.49:474][593]LogStaticMesh: Building static mesh SM_Door_28_Casing_B...
+[2017.08.19-00.57.49:479][593]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.SM_Door_28_Casing_B
+[2017.08.19-00.57.49:539][593]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.49:557][593]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_C.fbx]
+[2017.08.19-00.57.49:606][593]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Casing_C.fbx
+[2017.08.19-00.57.49:613][593]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.49:618][593]LogFbx:Warning: Triangulating static mesh SM_Door_28_Casing_C
+[2017.08.19-00.57.49:669][593]LogStaticMesh: Building static mesh SM_Door_28_Casing_C...
+[2017.08.19-00.57.49:674][593]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.SM_Door_28_Casing_C
+[2017.08.19-00.57.49:751][593]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.58:526][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Cutout.fbx]
+[2017.08.19-00.57.58:554][509]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_28_Cutout.fbx
+[2017.08.19-00.57.58:561][509]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.58:566][509]LogFbx:Warning: Triangulating static mesh SM_Door_28_Cutout
+[2017.08.19-00.57.58:731][509]LogStaticMesh: Building static mesh SM_Door_28_Cutout...
+[2017.08.19-00.57.58:733][509]LogStaticMesh: Built static mesh [0.15s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.SM_Door_28_Cutout
+[2017.08.19-00.57.58:787][509]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.58:821][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_30_Cutout.fbx]
+[2017.08.19-00.57.58:858][509]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_30_Cutout.fbx
+[2017.08.19-00.57.58:865][509]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.58:869][509]LogFbx:Warning: Triangulating static mesh SM_Door_30_Cutout
+[2017.08.19-00.57.58:917][509]LogStaticMesh: Building static mesh SM_Door_30_Cutout...
+[2017.08.19-00.57.58:919][509]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.SM_Door_30_Cutout
+[2017.08.19-00.57.58:984][509]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.59:033][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_32_Cutout.fbx]
+[2017.08.19-00.57.59:073][509]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_32_Cutout.fbx
+[2017.08.19-00.57.59:080][509]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.59:085][509]LogFbx:Warning: Triangulating static mesh SM_Door_32_Cutout
+[2017.08.19-00.57.59:146][509]LogStaticMesh: Building static mesh SM_Door_32_Cutout...
+[2017.08.19-00.57.59:149][509]LogStaticMesh: Built static mesh [0.04s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.SM_Door_32_Cutout
+[2017.08.19-00.57.59:210][509]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.59:243][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_34_Cutout.fbx]
+[2017.08.19-00.57.59:284][509]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_34_Cutout.fbx
+[2017.08.19-00.57.59:291][509]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.59:295][509]LogFbx:Warning: Triangulating static mesh SM_Door_34_Cutout
+[2017.08.19-00.57.59:339][509]LogStaticMesh: Building static mesh SM_Door_34_Cutout...
+[2017.08.19-00.57.59:340][509]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.SM_Door_34_Cutout
+[2017.08.19-00.57.59:382][509]LogEditorFactories: -- imported successfully
+[2017.08.19-00.57.59:405][509]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_36_Cutout.fbx]
+[2017.08.19-00.57.59:453][509]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_36_Cutout.fbx
+[2017.08.19-00.57.59:461][509]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.57.59:465][509]LogFbx:Warning: Triangulating static mesh SM_Door_36_Cutout
+[2017.08.19-00.57.59:586][509]LogStaticMesh: Building static mesh SM_Door_36_Cutout...
+[2017.08.19-00.57.59:588][509]LogStaticMesh: Built static mesh [0.10s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.SM_Door_36_Cutout
+[2017.08.19-00.57.59:699][509]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.05:749][142]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_Footer.fbx]
+[2017.08.19-00.58.05:777][142]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Door_Footer.fbx
+[2017.08.19-00.58.05:784][142]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.05:789][142]LogFbx:Warning: Triangulating static mesh SM_Door_Footer
+[2017.08.19-00.58.05:832][142]LogStaticMesh: Building static mesh SM_Door_Footer...
+[2017.08.19-00.58.05:833][142]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.SM_Door_Footer
+[2017.08.19-00.58.05:860][142]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.10:961][692]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_2.fbx]
+[2017.08.19-00.58.10:988][692]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_2.fbx
+[2017.08.19-00.58.10:995][692]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.11:000][692]LogFbx:Warning: Triangulating static mesh SM_Wall_2
+[2017.08.19-00.58.11:049][692]LogStaticMesh: Building static mesh SM_Wall_2...
+[2017.08.19-00.58.11:051][692]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.SM_Wall_2
+[2017.08.19-00.58.11:115][692]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.11:141][692]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_Beginning.fbx]
+[2017.08.19-00.58.11:172][692]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_Beginning.fbx
+[2017.08.19-00.58.11:181][692]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.11:186][692]LogFbx:Warning: Triangulating static mesh SM_Wall_Beginning
+[2017.08.19-00.58.11:250][692]LogStaticMesh: Building static mesh SM_Wall_Beginning...
+[2017.08.19-00.58.11:250][692]LogStaticMesh: Built static mesh [0.05s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.SM_Wall_Beginning
+[2017.08.19-00.58.11:310][692]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.11:349][692]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_End.fbx]
+[2017.08.19-00.58.11:390][692]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Wall_End.fbx
+[2017.08.19-00.58.11:397][692]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.11:401][692]LogFbx:Warning: Triangulating static mesh SM_Wall_End
+[2017.08.19-00.58.11:436][692]LogStaticMesh: Building static mesh SM_Wall_End...
+[2017.08.19-00.58.11:437][692]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.SM_Wall_End
+[2017.08.19-00.58.11:456][692]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:044][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2436.fbx]
+[2017.08.19-00.58.23:071][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2436.fbx
+[2017.08.19-00.58.23:078][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:083][291]LogFbx:Warning: Triangulating static mesh SM_Window_2436
+[2017.08.19-00.58.23:109][291]LogStaticMesh: Building static mesh SM_Window_2436...
+[2017.08.19-00.58.23:110][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.SM_Window_2436
+[2017.08.19-00.58.23:146][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:169][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2444.fbx]
+[2017.08.19-00.58.23:200][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2444.fbx
+[2017.08.19-00.58.23:208][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:213][291]LogFbx:Warning: Triangulating static mesh SM_Window_2444
+[2017.08.19-00.58.23:234][291]LogStaticMesh: Building static mesh SM_Window_2444...
+[2017.08.19-00.58.23:235][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.SM_Window_2444
+[2017.08.19-00.58.23:270][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:288][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2448.fbx]
+[2017.08.19-00.58.23:319][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2448.fbx
+[2017.08.19-00.58.23:327][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:331][291]LogFbx:Warning: Triangulating static mesh SM_Window_2448
+[2017.08.19-00.58.23:355][291]LogStaticMesh: Building static mesh SM_Window_2448...
+[2017.08.19-00.58.23:357][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.SM_Window_2448
+[2017.08.19-00.58.23:428][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:457][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2452.fbx]
+[2017.08.19-00.58.23:498][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2452.fbx
+[2017.08.19-00.58.23:507][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:512][291]LogFbx:Warning: Triangulating static mesh SM_Window_2452
+[2017.08.19-00.58.23:555][291]LogStaticMesh: Building static mesh SM_Window_2452...
+[2017.08.19-00.58.23:557][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.SM_Window_2452
+[2017.08.19-00.58.23:592][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:607][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2454.fbx]
+[2017.08.19-00.58.23:658][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2454.fbx
+[2017.08.19-00.58.23:665][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:670][291]LogFbx:Warning: Triangulating static mesh SM_Window_2454
+[2017.08.19-00.58.23:693][291]LogStaticMesh: Building static mesh SM_Window_2454...
+[2017.08.19-00.58.23:694][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.SM_Window_2454
+[2017.08.19-00.58.23:739][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:783][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2460.fbx]
+[2017.08.19-00.58.23:835][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2460.fbx
+[2017.08.19-00.58.23:843][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.23:847][291]LogFbx:Warning: Triangulating static mesh SM_Window_2460
+[2017.08.19-00.58.23:890][291]LogStaticMesh: Building static mesh SM_Window_2460...
+[2017.08.19-00.58.23:892][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.SM_Window_2460
+[2017.08.19-00.58.23:917][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.23:965][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2462.fbx]
+[2017.08.19-00.58.24:010][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2462.fbx
+[2017.08.19-00.58.24:017][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.24:021][291]LogFbx:Warning: Triangulating static mesh SM_Window_2462
+[2017.08.19-00.58.24:070][291]LogStaticMesh: Building static mesh SM_Window_2462...
+[2017.08.19-00.58.24:071][291]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.SM_Window_2462
+[2017.08.19-00.58.24:149][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.24:186][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2472.fbx]
+[2017.08.19-00.58.24:229][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2472.fbx
+[2017.08.19-00.58.24:236][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.24:240][291]LogFbx:Warning: Triangulating static mesh SM_Window_2472
+[2017.08.19-00.58.24:265][291]LogStaticMesh: Building static mesh SM_Window_2472...
+[2017.08.19-00.58.24:267][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.SM_Window_2472
+[2017.08.19-00.58.24:318][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.24:336][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2836.fbx]
+[2017.08.19-00.58.24:392][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2836.fbx
+[2017.08.19-00.58.24:399][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.24:403][291]LogFbx:Warning: Triangulating static mesh SM_Window_2836
+[2017.08.19-00.58.24:429][291]LogStaticMesh: Building static mesh SM_Window_2836...
+[2017.08.19-00.58.24:431][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.SM_Window_2836
+[2017.08.19-00.58.24:509][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.24:548][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2844.fbx]
+[2017.08.19-00.58.24:600][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2844.fbx
+[2017.08.19-00.58.24:607][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.24:612][291]LogFbx:Warning: Triangulating static mesh SM_Window_2844
+[2017.08.19-00.58.24:661][291]LogStaticMesh: Building static mesh SM_Window_2844...
+[2017.08.19-00.58.24:662][291]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.SM_Window_2844
+[2017.08.19-00.58.24:765][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.24:806][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2848.fbx]
+[2017.08.19-00.58.24:854][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2848.fbx
+[2017.08.19-00.58.24:861][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.24:866][291]LogFbx:Warning: Triangulating static mesh SM_Window_2848
+[2017.08.19-00.58.24:901][291]LogStaticMesh: Building static mesh SM_Window_2848...
+[2017.08.19-00.58.24:903][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.SM_Window_2848
+[2017.08.19-00.58.24:950][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.25:067][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2852.fbx]
+[2017.08.19-00.58.25:116][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2852.fbx
+[2017.08.19-00.58.25:125][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.25:130][291]LogFbx:Warning: Triangulating static mesh SM_Window_2852
+[2017.08.19-00.58.25:166][291]LogStaticMesh: Building static mesh SM_Window_2852...
+[2017.08.19-00.58.25:168][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.SM_Window_2852
+[2017.08.19-00.58.25:225][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.25:281][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2854.fbx]
+[2017.08.19-00.58.25:329][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2854.fbx
+[2017.08.19-00.58.25:337][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.25:341][291]LogFbx:Warning: Triangulating static mesh SM_Window_2854
+[2017.08.19-00.58.25:376][291]LogStaticMesh: Building static mesh SM_Window_2854...
+[2017.08.19-00.58.25:378][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.SM_Window_2854
+[2017.08.19-00.58.25:395][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.25:436][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2860.fbx]
+[2017.08.19-00.58.25:500][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2860.fbx
+[2017.08.19-00.58.25:507][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.25:512][291]LogFbx:Warning: Triangulating static mesh SM_Window_2860
+[2017.08.19-00.58.25:541][291]LogStaticMesh: Building static mesh SM_Window_2860...
+[2017.08.19-00.58.25:542][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.SM_Window_2860
+[2017.08.19-00.58.25:600][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.25:628][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2862.fbx]
+[2017.08.19-00.58.25:682][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2862.fbx
+[2017.08.19-00.58.25:689][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.25:694][291]LogFbx:Warning: Triangulating static mesh SM_Window_2862
+[2017.08.19-00.58.25:721][291]LogStaticMesh: Building static mesh SM_Window_2862...
+[2017.08.19-00.58.25:722][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.SM_Window_2862
+[2017.08.19-00.58.25:810][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.25:833][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2872.fbx]
+[2017.08.19-00.58.25:887][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_2872.fbx
+[2017.08.19-00.58.25:895][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.25:899][291]LogFbx:Warning: Triangulating static mesh SM_Window_2872
+[2017.08.19-00.58.25:959][291]LogStaticMesh: Building static mesh SM_Window_2872...
+[2017.08.19-00.58.25:960][291]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.SM_Window_2872
+[2017.08.19-00.58.26:078][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.26:110][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3236.fbx]
+[2017.08.19-00.58.26:166][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3236.fbx
+[2017.08.19-00.58.26:175][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.26:179][291]LogFbx:Warning: Triangulating static mesh SM_Window_3236
+[2017.08.19-00.58.26:220][291]LogStaticMesh: Building static mesh SM_Window_3236...
+[2017.08.19-00.58.26:221][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.SM_Window_3236
+[2017.08.19-00.58.26:254][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.26:280][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3244.fbx]
+[2017.08.19-00.58.26:342][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3244.fbx
+[2017.08.19-00.58.26:349][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.26:354][291]LogFbx:Warning: Triangulating static mesh SM_Window_3244
+[2017.08.19-00.58.26:398][291]LogStaticMesh: Building static mesh SM_Window_3244...
+[2017.08.19-00.58.26:400][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.SM_Window_3244
+[2017.08.19-00.58.26:427][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.26:462][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3248.fbx]
+[2017.08.19-00.58.26:522][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3248.fbx
+[2017.08.19-00.58.26:529][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.26:536][291]LogFbx:Warning: Triangulating static mesh SM_Window_3248
+[2017.08.19-00.58.26:572][291]LogStaticMesh: Building static mesh SM_Window_3248...
+[2017.08.19-00.58.26:574][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.SM_Window_3248
+[2017.08.19-00.58.26:619][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.26:686][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3252.fbx]
+[2017.08.19-00.58.26:747][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3252.fbx
+[2017.08.19-00.58.26:754][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.26:759][291]LogFbx:Warning: Triangulating static mesh SM_Window_3252
+[2017.08.19-00.58.26:793][291]LogStaticMesh: Building static mesh SM_Window_3252...
+[2017.08.19-00.58.26:795][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.SM_Window_3252
+[2017.08.19-00.58.26:881][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.26:908][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3254.fbx]
+[2017.08.19-00.58.26:974][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3254.fbx
+[2017.08.19-00.58.26:982][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.26:986][291]LogFbx:Warning: Triangulating static mesh SM_Window_3254
+[2017.08.19-00.58.27:038][291]LogStaticMesh: Building static mesh SM_Window_3254...
+[2017.08.19-00.58.27:040][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.SM_Window_3254
+[2017.08.19-00.58.27:077][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.27:112][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3260.fbx]
+[2017.08.19-00.58.27:185][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3260.fbx
+[2017.08.19-00.58.27:193][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.27:198][291]LogFbx:Warning: Triangulating static mesh SM_Window_3260
+[2017.08.19-00.58.27:232][291]LogStaticMesh: Building static mesh SM_Window_3260...
+[2017.08.19-00.58.27:234][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.SM_Window_3260
+[2017.08.19-00.58.27:281][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.27:305][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3262.fbx]
+[2017.08.19-00.58.27:376][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3262.fbx
+[2017.08.19-00.58.27:384][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.27:389][291]LogFbx:Warning: Triangulating static mesh SM_Window_3262
+[2017.08.19-00.58.27:429][291]LogStaticMesh: Building static mesh SM_Window_3262...
+[2017.08.19-00.58.27:430][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.SM_Window_3262
+[2017.08.19-00.58.27:498][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.27:513][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3272.fbx]
+[2017.08.19-00.58.27:586][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_3272.fbx
+[2017.08.19-00.58.27:593][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.27:598][291]LogFbx:Warning: Triangulating static mesh SM_Window_3272
+[2017.08.19-00.58.27:640][291]LogStaticMesh: Building static mesh SM_Window_3272...
+[2017.08.19-00.58.27:642][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.SM_Window_3272
+[2017.08.19-00.58.27:668][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.27:732][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4036.fbx]
+[2017.08.19-00.58.27:795][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4036.fbx
+[2017.08.19-00.58.27:804][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.27:808][291]LogFbx:Warning: Triangulating static mesh SM_Window_4036
+[2017.08.19-00.58.27:845][291]LogStaticMesh: Building static mesh SM_Window_4036...
+[2017.08.19-00.58.27:847][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.SM_Window_4036
+[2017.08.19-00.58.27:895][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.27:918][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4044.fbx]
+[2017.08.19-00.58.27:996][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4044.fbx
+[2017.08.19-00.58.28:004][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.28:008][291]LogFbx:Warning: Triangulating static mesh SM_Window_4044
+[2017.08.19-00.58.28:086][291]LogStaticMesh: Building static mesh SM_Window_4044...
+[2017.08.19-00.58.28:087][291]LogStaticMesh: Built static mesh [0.05s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.SM_Window_4044
+[2017.08.19-00.58.28:144][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.28:159][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4048.fbx]
+[2017.08.19-00.58.28:236][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4048.fbx
+[2017.08.19-00.58.28:243][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.28:247][291]LogFbx:Warning: Triangulating static mesh SM_Window_4048
+[2017.08.19-00.58.28:279][291]LogStaticMesh: Building static mesh SM_Window_4048...
+[2017.08.19-00.58.28:280][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.SM_Window_4048
+[2017.08.19-00.58.28:331][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.28:367][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4052.fbx]
+[2017.08.19-00.58.28:444][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4052.fbx
+[2017.08.19-00.58.28:452][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.28:456][291]LogFbx:Warning: Triangulating static mesh SM_Window_4052
+[2017.08.19-00.58.28:528][291]LogStaticMesh: Building static mesh SM_Window_4052...
+[2017.08.19-00.58.28:529][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.SM_Window_4052
+[2017.08.19-00.58.28:577][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.28:613][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4054.fbx]
+[2017.08.19-00.58.28:688][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4054.fbx
+[2017.08.19-00.58.28:695][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.28:700][291]LogFbx:Warning: Triangulating static mesh SM_Window_4054
+[2017.08.19-00.58.28:746][291]LogStaticMesh: Building static mesh SM_Window_4054...
+[2017.08.19-00.58.28:748][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.SM_Window_4054
+[2017.08.19-00.58.28:827][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.28:856][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4060.fbx]
+[2017.08.19-00.58.28:936][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4060.fbx
+[2017.08.19-00.58.28:943][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.28:948][291]LogFbx:Warning: Triangulating static mesh SM_Window_4060
+[2017.08.19-00.58.28:999][291]LogStaticMesh: Building static mesh SM_Window_4060...
+[2017.08.19-00.58.29:001][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.SM_Window_4060
+[2017.08.19-00.58.29:074][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.29:098][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4062.fbx]
+[2017.08.19-00.58.29:171][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4062.fbx
+[2017.08.19-00.58.29:180][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.29:184][291]LogFbx:Warning: Triangulating static mesh SM_Window_4062
+[2017.08.19-00.58.29:230][291]LogStaticMesh: Building static mesh SM_Window_4062...
+[2017.08.19-00.58.29:232][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.SM_Window_4062
+[2017.08.19-00.58.29:267][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.29:281][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4072.fbx]
+[2017.08.19-00.58.29:360][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4072.fbx
+[2017.08.19-00.58.29:368][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.29:373][291]LogFbx:Warning: Triangulating static mesh SM_Window_4072
+[2017.08.19-00.58.29:436][291]LogStaticMesh: Building static mesh SM_Window_4072...
+[2017.08.19-00.58.29:438][291]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.SM_Window_4072
+[2017.08.19-00.58.29:578][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.29:662][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4436.fbx]
+[2017.08.19-00.58.29:726][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4436.fbx
+[2017.08.19-00.58.29:733][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.29:738][291]LogFbx:Warning: Triangulating static mesh SM_Window_4436
+[2017.08.19-00.58.29:777][291]LogStaticMesh: Building static mesh SM_Window_4436...
+[2017.08.19-00.58.29:778][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.SM_Window_4436
+[2017.08.19-00.58.29:830][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.29:866][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4444.fbx]
+[2017.08.19-00.58.29:928][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4444.fbx
+[2017.08.19-00.58.29:936][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.29:941][291]LogFbx:Warning: Triangulating static mesh SM_Window_4444
+[2017.08.19-00.58.29:972][291]LogStaticMesh: Building static mesh SM_Window_4444...
+[2017.08.19-00.58.29:974][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.SM_Window_4444
+[2017.08.19-00.58.30:023][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.30:049][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4448.fbx]
+[2017.08.19-00.58.30:111][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4448.fbx
+[2017.08.19-00.58.30:118][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.30:123][291]LogFbx:Warning: Triangulating static mesh SM_Window_4448
+[2017.08.19-00.58.30:156][291]LogStaticMesh: Building static mesh SM_Window_4448...
+[2017.08.19-00.58.30:157][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.SM_Window_4448
+[2017.08.19-00.58.30:247][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.30:268][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4452.fbx]
+[2017.08.19-00.58.30:334][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4452.fbx
+[2017.08.19-00.58.30:341][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.30:346][291]LogFbx:Warning: Triangulating static mesh SM_Window_4452
+[2017.08.19-00.58.30:390][291]LogStaticMesh: Building static mesh SM_Window_4452...
+[2017.08.19-00.58.30:391][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.SM_Window_4452
+[2017.08.19-00.58.30:457][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.30:479][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4454.fbx]
+[2017.08.19-00.58.30:550][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4454.fbx
+[2017.08.19-00.58.30:558][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.30:562][291]LogFbx:Warning: Triangulating static mesh SM_Window_4454
+[2017.08.19-00.58.30:592][291]LogStaticMesh: Building static mesh SM_Window_4454...
+[2017.08.19-00.58.30:594][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.SM_Window_4454
+[2017.08.19-00.58.30:640][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.30:668][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4460.fbx]
+[2017.08.19-00.58.30:735][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4460.fbx
+[2017.08.19-00.58.30:743][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.30:748][291]LogFbx:Warning: Triangulating static mesh SM_Window_4460
+[2017.08.19-00.58.30:785][291]LogStaticMesh: Building static mesh SM_Window_4460...
+[2017.08.19-00.58.30:787][291]LogStaticMesh: Built static mesh [0.01s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.SM_Window_4460
+[2017.08.19-00.58.30:826][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.30:842][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4462.fbx]
+[2017.08.19-00.58.30:920][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4462.fbx
+[2017.08.19-00.58.30:928][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.30:932][291]LogFbx:Warning: Triangulating static mesh SM_Window_4462
+[2017.08.19-00.58.30:989][291]LogStaticMesh: Building static mesh SM_Window_4462...
+[2017.08.19-00.58.30:991][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.SM_Window_4462
+[2017.08.19-00.58.31:048][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.31:122][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4472.fbx]
+[2017.08.19-00.58.31:186][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4472.fbx
+[2017.08.19-00.58.31:193][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.31:197][291]LogFbx:Warning: Triangulating static mesh SM_Window_4472
+[2017.08.19-00.58.31:234][291]LogStaticMesh: Building static mesh SM_Window_4472...
+[2017.08.19-00.58.31:236][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.SM_Window_4472
+[2017.08.19-00.58.31:285][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.31:298][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4836.fbx]
+[2017.08.19-00.58.31:376][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4836.fbx
+[2017.08.19-00.58.31:384][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.31:389][291]LogFbx:Warning: Triangulating static mesh SM_Window_4836
+[2017.08.19-00.58.31:437][291]LogStaticMesh: Building static mesh SM_Window_4836...
+[2017.08.19-00.58.31:439][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.SM_Window_4836
+[2017.08.19-00.58.31:482][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.31:526][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4844.fbx]
+[2017.08.19-00.58.31:591][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4844.fbx
+[2017.08.19-00.58.31:599][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.31:604][291]LogFbx:Warning: Triangulating static mesh SM_Window_4844
+[2017.08.19-00.58.31:636][291]LogStaticMesh: Building static mesh SM_Window_4844...
+[2017.08.19-00.58.31:638][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.SM_Window_4844
+[2017.08.19-00.58.31:710][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.31:767][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4848.fbx]
+[2017.08.19-00.58.31:832][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4848.fbx
+[2017.08.19-00.58.31:841][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.31:846][291]LogFbx:Warning: Triangulating static mesh SM_Window_4848
+[2017.08.19-00.58.31:902][291]LogStaticMesh: Building static mesh SM_Window_4848...
+[2017.08.19-00.58.31:904][291]LogStaticMesh: Built static mesh [0.02s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.SM_Window_4848
+[2017.08.19-00.58.31:953][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.31:982][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4852.fbx]
+[2017.08.19-00.58.32:051][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4852.fbx
+[2017.08.19-00.58.32:058][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.32:063][291]LogFbx:Warning: Triangulating static mesh SM_Window_4852
+[2017.08.19-00.58.32:097][291]LogStaticMesh: Building static mesh SM_Window_4852...
+[2017.08.19-00.58.32:098][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.SM_Window_4852
+[2017.08.19-00.58.32:244][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.32:293][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4854.fbx]
+[2017.08.19-00.58.32:358][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4854.fbx
+[2017.08.19-00.58.32:366][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.32:370][291]LogFbx:Warning: Triangulating static mesh SM_Window_4854
+[2017.08.19-00.58.32:399][291]LogStaticMesh: Building static mesh SM_Window_4854...
+[2017.08.19-00.58.32:400][291]LogStaticMesh: Built static mesh [0.00s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.SM_Window_4854
+[2017.08.19-00.58.32:488][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.32:602][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4860.fbx]
+[2017.08.19-00.58.32:661][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4860.fbx
+[2017.08.19-00.58.32:668][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.32:672][291]LogFbx:Warning: Triangulating static mesh SM_Window_4860
+[2017.08.19-00.58.32:791][291]LogStaticMesh: Building static mesh SM_Window_4860...
+[2017.08.19-00.58.32:793][291]LogStaticMesh: Built static mesh [0.09s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.SM_Window_4860
+[2017.08.19-00.58.32:920][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.32:962][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4862.fbx]
+[2017.08.19-00.58.33:020][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4862.fbx
+[2017.08.19-00.58.33:027][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.33:032][291]LogFbx:Warning: Triangulating static mesh SM_Window_4862
+[2017.08.19-00.58.33:093][291]LogStaticMesh: Building static mesh SM_Window_4862...
+[2017.08.19-00.58.33:095][291]LogStaticMesh: Built static mesh [0.03s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.SM_Window_4862
+[2017.08.19-00.58.33:239][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.33:378][291]LogEditorFactories: Performing atomic reimport of [D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4872.fbx]
+[2017.08.19-00.58.33:436][291]LogFbx: Loading FBX Scene from D:/Documents/Content/Environments/Buildings/Suburban/LowPoly/SM_Window_4872.fbx
+[2017.08.19-00.58.33:443][291]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.19-00.58.33:448][291]LogFbx:Warning: Triangulating static mesh SM_Window_4872
+[2017.08.19-00.58.33:578][291]LogStaticMesh: Building static mesh SM_Window_4872...
+[2017.08.19-00.58.33:580][291]LogStaticMesh: Built static mesh [0.11s] /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.SM_Window_4872
+[2017.08.19-00.58.33:768][291]LogEditorFactories: -- imported successfully
+[2017.08.19-00.58.47:735][629]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ModularSuburbanHouse/Maps/SuburbanDemo' took 0.017
+[2017.08.19-00.58.47:737][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A] ([1] browsable assets)...
+[2017.08.19-00.58.47:753][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.SM_Door_28_Casing_A]
+[2017.08.19-00.58.47:753][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A]
+[2017.08.19-00.58.47:804][629]LogSavePackage: Save=34.61ms
+[2017.08.19-00.58.47:804][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_A_Auto1BDEA22104A28CD6A9BA78687D5C35E65.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A_Auto1.uasset'
+[2017.08.19-00.58.47:804][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A_Auto1.uasset
+[2017.08.19-00.58.47:805][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B] ([1] browsable assets)...
+[2017.08.19-00.58.47:819][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.SM_Door_28_Casing_B]
+[2017.08.19-00.58.47:819][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B]
+[2017.08.19-00.58.47:842][629]LogSavePackage: Save=16.31ms
+[2017.08.19-00.58.47:842][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_B_Auto1FADA9867488071E14E4EBB83FCA3502F.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B_Auto1.uasset'
+[2017.08.19-00.58.47:842][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B_Auto1.uasset
+[2017.08.19-00.58.47:843][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C] ([1] browsable assets)...
+[2017.08.19-00.58.47:860][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.SM_Door_28_Casing_C]
+[2017.08.19-00.58.47:860][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C]
+[2017.08.19-00.58.47:884][629]LogSavePackage: Save=16.78ms
+[2017.08.19-00.58.47:884][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_C_Auto15A6485ED4391860A3ECA58A7CC0E03CA.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C_Auto1.uasset'
+[2017.08.19-00.58.47:885][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C_Auto1.uasset
+[2017.08.19-00.58.47:886][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout] ([1] browsable assets)...
+[2017.08.19-00.58.47:904][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.SM_Door_28_Cutout]
+[2017.08.19-00.58.47:904][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout]
+[2017.08.19-00.58.47:927][629]LogSavePackage: Save=16.79ms
+[2017.08.19-00.58.47:927][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Cutout_Auto101B220B34BAA5328CF1BB3B2ABC89E71.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout_Auto1.uasset'
+[2017.08.19-00.58.47:928][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout_Auto1.uasset
+[2017.08.19-00.58.47:928][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout] ([1] browsable assets)...
+[2017.08.19-00.58.47:943][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.SM_Door_30_Cutout]
+[2017.08.19-00.58.47:943][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout]
+[2017.08.19-00.58.47:972][629]LogSavePackage: Save=19.66ms
+[2017.08.19-00.58.47:972][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_30_Cutout_Auto12E80C3684BBEB1B3E5B1A8A901DE4F01.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout_Auto1.uasset'
+[2017.08.19-00.58.47:973][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout_Auto1.uasset
+[2017.08.19-00.58.47:974][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout] ([1] browsable assets)...
+[2017.08.19-00.58.47:994][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.SM_Door_32_Cutout]
+[2017.08.19-00.58.47:994][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout]
+[2017.08.19-00.58.48:020][629]LogSavePackage: Save=16.47ms
+[2017.08.19-00.58.48:020][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_32_Cutout_Auto1619A0DCE437C79A0CC7C40B8CC2AB765.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout_Auto1.uasset'
+[2017.08.19-00.58.48:021][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout_Auto1.uasset
+[2017.08.19-00.58.48:021][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout] ([1] browsable assets)...
+[2017.08.19-00.58.48:036][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.SM_Door_34_Cutout]
+[2017.08.19-00.58.48:036][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout]
+[2017.08.19-00.58.48:063][629]LogSavePackage: Save=19.50ms
+[2017.08.19-00.58.48:063][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_34_Cutout_Auto12D2B31974A43F930AF9F049061FF2590.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout_Auto1.uasset'
+[2017.08.19-00.58.48:064][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout_Auto1.uasset
+[2017.08.19-00.58.48:064][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout] ([1] browsable assets)...
+[2017.08.19-00.58.48:080][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.SM_Door_36_Cutout]
+[2017.08.19-00.58.48:080][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout]
+[2017.08.19-00.58.48:105][629]LogSavePackage: Save=17.49ms
+[2017.08.19-00.58.48:105][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_36_Cutout_Auto1572D51654D49F41B3D354F9BA76DC28F.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout_Auto1.uasset'
+[2017.08.19-00.58.48:106][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout_Auto1.uasset
+[2017.08.19-00.58.48:107][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer] ([1] browsable assets)...
+[2017.08.19-00.58.48:123][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.SM_Door_Footer]
+[2017.08.19-00.58.48:123][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer]
+[2017.08.19-00.58.48:151][629]LogSavePackage: Save=18.21ms
+[2017.08.19-00.58.48:151][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_Footer_Auto1D652ABA149C5819690680D90BA194211.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer_Auto1.uasset'
+[2017.08.19-00.58.48:151][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer_Auto1.uasset
+[2017.08.19-00.58.48:152][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2] ([1] browsable assets)...
+[2017.08.19-00.58.48:169][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.SM_Wall_2]
+[2017.08.19-00.58.48:169][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2]
+[2017.08.19-00.58.48:196][629]LogSavePackage: Save=18.79ms
+[2017.08.19-00.58.48:196][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_2_Auto12C0FB8BE466F982502BC6F93CF2F7B40.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2_Auto1.uasset'
+[2017.08.19-00.58.48:197][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2_Auto1.uasset
+[2017.08.19-00.58.48:198][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning] ([1] browsable assets)...
+[2017.08.19-00.58.48:217][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.SM_Wall_Beginning]
+[2017.08.19-00.58.48:217][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning]
+[2017.08.19-00.58.48:244][629]LogSavePackage: Save=17.74ms
+[2017.08.19-00.58.48:244][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_Beginning_Auto155F0B1F24FA1625336B773A1672FC732.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning_Auto1.uasset'
+[2017.08.19-00.58.48:244][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning_Auto1.uasset
+[2017.08.19-00.58.48:245][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End] ([1] browsable assets)...
+[2017.08.19-00.58.48:262][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.SM_Wall_End]
+[2017.08.19-00.58.48:262][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End]
+[2017.08.19-00.58.48:288][629]LogSavePackage: Save=18.69ms
+[2017.08.19-00.58.48:288][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_End_Auto1ADA3A8324D1C02E9871D79B7855825EE.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End_Auto1.uasset'
+[2017.08.19-00.58.48:289][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End_Auto1.uasset
+[2017.08.19-00.58.48:289][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436] ([1] browsable assets)...
+[2017.08.19-00.58.48:305][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.SM_Window_2436]
+[2017.08.19-00.58.48:305][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436]
+[2017.08.19-00.58.48:328][629]LogSavePackage: Save=16.45ms
+[2017.08.19-00.58.48:328][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2436_Auto1941B531746AD6D1D227BCF9ADB304E67.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436_Auto1.uasset'
+[2017.08.19-00.58.48:329][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436_Auto1.uasset
+[2017.08.19-00.58.48:329][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444] ([1] browsable assets)...
+[2017.08.19-00.58.48:346][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.SM_Window_2444]
+[2017.08.19-00.58.48:346][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444]
+[2017.08.19-00.58.48:376][629]LogSavePackage: Save=17.66ms
+[2017.08.19-00.58.48:376][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2444_Auto1E3B4BD004398C9420EFBEBA28C55FA6C.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444_Auto1.uasset'
+[2017.08.19-00.58.48:377][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444_Auto1.uasset
+[2017.08.19-00.58.48:377][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448] ([1] browsable assets)...
+[2017.08.19-00.58.48:393][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.SM_Window_2448]
+[2017.08.19-00.58.48:393][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448]
+[2017.08.19-00.58.48:419][629]LogSavePackage: Save=17.10ms
+[2017.08.19-00.58.48:419][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2448_Auto1560511274092BA155FC42AACA59B6FC3.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448_Auto1.uasset'
+[2017.08.19-00.58.48:420][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448_Auto1.uasset
+[2017.08.19-00.58.48:420][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452] ([1] browsable assets)...
+[2017.08.19-00.58.48:435][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.SM_Window_2452]
+[2017.08.19-00.58.48:435][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452]
+[2017.08.19-00.58.48:459][629]LogSavePackage: Save=17.21ms
+[2017.08.19-00.58.48:459][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2452_Auto153054EAD494BEEC7317D9BA75911C557.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452_Auto1.uasset'
+[2017.08.19-00.58.48:460][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452_Auto1.uasset
+[2017.08.19-00.58.48:461][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454] ([1] browsable assets)...
+[2017.08.19-00.58.48:477][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.SM_Window_2454]
+[2017.08.19-00.58.48:477][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454]
+[2017.08.19-00.58.48:498][629]LogSavePackage: Save=14.94ms
+[2017.08.19-00.58.48:498][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2454_Auto180C566E148B751D082CD26A72964022E.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454_Auto1.uasset'
+[2017.08.19-00.58.48:499][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454_Auto1.uasset
+[2017.08.19-00.58.48:499][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460] ([1] browsable assets)...
+[2017.08.19-00.58.48:514][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.SM_Window_2460]
+[2017.08.19-00.58.48:514][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460]
+[2017.08.19-00.58.48:586][629]LogSavePackage: Save=64.52ms
+[2017.08.19-00.58.48:587][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2460_Auto1FCAD923847ECA614D579BF8C71F2B956.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460_Auto1.uasset'
+[2017.08.19-00.58.48:589][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460_Auto1.uasset
+[2017.08.19-00.58.48:589][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462] ([1] browsable assets)...
+[2017.08.19-00.58.48:604][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.SM_Window_2462]
+[2017.08.19-00.58.48:604][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462]
+[2017.08.19-00.58.48:627][629]LogSavePackage: Save=15.77ms
+[2017.08.19-00.58.48:627][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2462_Auto1A0A2D4D24A16DD93E1B4A8840E730E28.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462_Auto1.uasset'
+[2017.08.19-00.58.48:628][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462_Auto1.uasset
+[2017.08.19-00.58.48:628][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472] ([1] browsable assets)...
+[2017.08.19-00.58.48:643][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.SM_Window_2472]
+[2017.08.19-00.58.48:643][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472]
+[2017.08.19-00.58.48:668][629]LogSavePackage: Save=18.35ms
+[2017.08.19-00.58.48:669][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2472_Auto1059ED5E6455F73A70C4DB4BE63072F0D.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472_Auto1.uasset'
+[2017.08.19-00.58.48:669][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472_Auto1.uasset
+[2017.08.19-00.58.48:670][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836] ([1] browsable assets)...
+[2017.08.19-00.58.48:685][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.SM_Window_2836]
+[2017.08.19-00.58.48:685][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836]
+[2017.08.19-00.58.48:708][629]LogSavePackage: Save=16.18ms
+[2017.08.19-00.58.48:708][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2836_Auto1B8876D344DACB0DC114AF6988C59335D.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836_Auto1.uasset'
+[2017.08.19-00.58.48:708][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836_Auto1.uasset
+[2017.08.19-00.58.48:709][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844] ([1] browsable assets)...
+[2017.08.19-00.58.48:723][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.SM_Window_2844]
+[2017.08.19-00.58.48:723][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844]
+[2017.08.19-00.58.48:747][629]LogSavePackage: Save=16.58ms
+[2017.08.19-00.58.48:747][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2844_Auto19DFD0828485AE696555A37BB55CF4860.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844_Auto1.uasset'
+[2017.08.19-00.58.48:748][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844_Auto1.uasset
+[2017.08.19-00.58.48:748][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848] ([1] browsable assets)...
+[2017.08.19-00.58.48:763][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.SM_Window_2848]
+[2017.08.19-00.58.48:763][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848]
+[2017.08.19-00.58.48:787][629]LogSavePackage: Save=16.12ms
+[2017.08.19-00.58.48:788][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2848_Auto1148D6C554EBE96E372F0EFA1A61A26A6.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848_Auto1.uasset'
+[2017.08.19-00.58.48:788][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848_Auto1.uasset
+[2017.08.19-00.58.48:789][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852] ([1] browsable assets)...
+[2017.08.19-00.58.48:805][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.SM_Window_2852]
+[2017.08.19-00.58.48:805][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852]
+[2017.08.19-00.58.48:827][629]LogSavePackage: Save=15.58ms
+[2017.08.19-00.58.48:827][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2852_Auto14AE8207F482FA736EF07EE95BC415CF2.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852_Auto1.uasset'
+[2017.08.19-00.58.48:828][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852_Auto1.uasset
+[2017.08.19-00.58.48:828][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854] ([1] browsable assets)...
+[2017.08.19-00.58.48:844][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.SM_Window_2854]
+[2017.08.19-00.58.48:844][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854]
+[2017.08.19-00.58.48:867][629]LogSavePackage: Save=16.14ms
+[2017.08.19-00.58.48:867][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2854_Auto128F58DC64D37169566F179A9914D8886.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854_Auto1.uasset'
+[2017.08.19-00.58.48:868][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854_Auto1.uasset
+[2017.08.19-00.58.48:868][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860] ([1] browsable assets)...
+[2017.08.19-00.58.48:883][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.SM_Window_2860]
+[2017.08.19-00.58.48:883][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860]
+[2017.08.19-00.58.48:907][629]LogSavePackage: Save=15.81ms
+[2017.08.19-00.58.48:907][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2860_Auto1ADFEA0FF46E7B9FF0A601886801A8392.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860_Auto1.uasset'
+[2017.08.19-00.58.48:908][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860_Auto1.uasset
+[2017.08.19-00.58.48:908][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862] ([1] browsable assets)...
+[2017.08.19-00.58.48:922][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.SM_Window_2862]
+[2017.08.19-00.58.48:922][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862]
+[2017.08.19-00.58.48:946][629]LogSavePackage: Save=15.94ms
+[2017.08.19-00.58.48:946][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2862_Auto1B016EC7C45D4F7E3DD765E8BBEFF2E73.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862_Auto1.uasset'
+[2017.08.19-00.58.48:946][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862_Auto1.uasset
+[2017.08.19-00.58.48:947][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872] ([1] browsable assets)...
+[2017.08.19-00.58.48:961][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.SM_Window_2872]
+[2017.08.19-00.58.48:961][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872]
+[2017.08.19-00.58.48:986][629]LogSavePackage: Save=16.94ms
+[2017.08.19-00.58.48:986][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2872_Auto1CD8FC12E43AA9FEBB875B198F65AD71A.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872_Auto1.uasset'
+[2017.08.19-00.58.48:988][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872_Auto1.uasset
+[2017.08.19-00.58.48:988][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236] ([1] browsable assets)...
+[2017.08.19-00.58.49:005][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.SM_Window_3236]
+[2017.08.19-00.58.49:006][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236]
+[2017.08.19-00.58.49:028][629]LogSavePackage: Save=15.80ms
+[2017.08.19-00.58.49:028][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3236_Auto176BDEEAB485656FA394DC5A67DAFBBD0.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236_Auto1.uasset'
+[2017.08.19-00.58.49:029][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236_Auto1.uasset
+[2017.08.19-00.58.49:029][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244] ([1] browsable assets)...
+[2017.08.19-00.58.49:044][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.SM_Window_3244]
+[2017.08.19-00.58.49:044][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244]
+[2017.08.19-00.58.49:067][629]LogSavePackage: Save=15.98ms
+[2017.08.19-00.58.49:067][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3244_Auto1C1B6FA834BA246B6AF795EBEE13166A2.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244_Auto1.uasset'
+[2017.08.19-00.58.49:068][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244_Auto1.uasset
+[2017.08.19-00.58.49:068][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248] ([1] browsable assets)...
+[2017.08.19-00.58.49:083][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.SM_Window_3248]
+[2017.08.19-00.58.49:083][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248]
+[2017.08.19-00.58.49:108][629]LogSavePackage: Save=16.46ms
+[2017.08.19-00.58.49:108][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3248_Auto17C2B6D974C2249E7463A049264670DBF.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248_Auto1.uasset'
+[2017.08.19-00.58.49:108][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248_Auto1.uasset
+[2017.08.19-00.58.49:108][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252] ([1] browsable assets)...
+[2017.08.19-00.58.49:122][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.SM_Window_3252]
+[2017.08.19-00.58.49:122][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252]
+[2017.08.19-00.58.49:147][629]LogSavePackage: Save=16.85ms
+[2017.08.19-00.58.49:147][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3252_Auto1FBEB95F14342EE4FB9F39B98D3C6C225.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252_Auto1.uasset'
+[2017.08.19-00.58.49:148][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252_Auto1.uasset
+[2017.08.19-00.58.49:148][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254] ([1] browsable assets)...
+[2017.08.19-00.58.49:164][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.SM_Window_3254]
+[2017.08.19-00.58.49:164][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254]
+[2017.08.19-00.58.49:187][629]LogSavePackage: Save=15.10ms
+[2017.08.19-00.58.49:188][629]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.19-00.58.49:196][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3254_Auto1EFA367D444DA18B83F16B5B46485233C.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254_Auto1.uasset'
+[2017.08.19-00.58.49:197][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254_Auto1.uasset
+[2017.08.19-00.58.49:197][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260] ([1] browsable assets)...
+[2017.08.19-00.58.49:214][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.SM_Window_3260]
+[2017.08.19-00.58.49:214][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260]
+[2017.08.19-00.58.49:238][629]LogSavePackage: Save=17.14ms
+[2017.08.19-00.58.49:238][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3260_Auto17566C5A447CE073CDD59AB88359F774D.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260_Auto1.uasset'
+[2017.08.19-00.58.49:239][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260_Auto1.uasset
+[2017.08.19-00.58.49:239][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262] ([1] browsable assets)...
+[2017.08.19-00.58.49:256][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.SM_Window_3262]
+[2017.08.19-00.58.49:256][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262]
+[2017.08.19-00.58.49:279][629]LogSavePackage: Save=15.61ms
+[2017.08.19-00.58.49:279][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3262_Auto1AF8A3CE042094988D7E76081F8DAA85A.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262_Auto1.uasset'
+[2017.08.19-00.58.49:279][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262_Auto1.uasset
+[2017.08.19-00.58.49:280][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272] ([1] browsable assets)...
+[2017.08.19-00.58.49:295][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.SM_Window_3272]
+[2017.08.19-00.58.49:295][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272]
+[2017.08.19-00.58.49:318][629]LogSavePackage: Save=15.68ms
+[2017.08.19-00.58.49:318][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3272_Auto1E0EF6DBE40F36179A6BA4EBFE03C5BC2.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272_Auto1.uasset'
+[2017.08.19-00.58.49:319][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272_Auto1.uasset
+[2017.08.19-00.58.49:319][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036] ([1] browsable assets)...
+[2017.08.19-00.58.49:334][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.SM_Window_4036]
+[2017.08.19-00.58.49:334][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036]
+[2017.08.19-00.58.49:358][629]LogSavePackage: Save=16.40ms
+[2017.08.19-00.58.49:358][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4036_Auto1467537DA49AF692E369911B69AF8C235.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036_Auto1.uasset'
+[2017.08.19-00.58.49:359][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036_Auto1.uasset
+[2017.08.19-00.58.49:359][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044] ([1] browsable assets)...
+[2017.08.19-00.58.49:374][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.SM_Window_4044]
+[2017.08.19-00.58.49:374][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044]
+[2017.08.19-00.58.49:400][629]LogSavePackage: Save=18.32ms
+[2017.08.19-00.58.49:400][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4044_Auto153C1A6964090121B547D4EB8BFA3C985.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044_Auto1.uasset'
+[2017.08.19-00.58.49:401][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044_Auto1.uasset
+[2017.08.19-00.58.49:401][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048] ([1] browsable assets)...
+[2017.08.19-00.58.49:415][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.SM_Window_4048]
+[2017.08.19-00.58.49:415][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048]
+[2017.08.19-00.58.49:439][629]LogSavePackage: Save=15.74ms
+[2017.08.19-00.58.49:439][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4048_Auto187E2E79B46ABAC214EBB5BB1DE637E04.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048_Auto1.uasset'
+[2017.08.19-00.58.49:440][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048_Auto1.uasset
+[2017.08.19-00.58.49:440][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052] ([1] browsable assets)...
+[2017.08.19-00.58.49:454][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.SM_Window_4052]
+[2017.08.19-00.58.49:454][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052]
+[2017.08.19-00.58.49:479][629]LogSavePackage: Save=17.56ms
+[2017.08.19-00.58.49:479][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4052_Auto18BC6E8AC42664F53696CA098208A7E52.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052_Auto1.uasset'
+[2017.08.19-00.58.49:480][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052_Auto1.uasset
+[2017.08.19-00.58.49:481][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054] ([1] browsable assets)...
+[2017.08.19-00.58.49:496][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.SM_Window_4054]
+[2017.08.19-00.58.49:496][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054]
+[2017.08.19-00.58.49:520][629]LogSavePackage: Save=16.19ms
+[2017.08.19-00.58.49:520][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4054_Auto1F73BA45146A2D607D8F39A8F9BC260E4.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054_Auto1.uasset'
+[2017.08.19-00.58.49:520][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054_Auto1.uasset
+[2017.08.19-00.58.49:521][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060] ([1] browsable assets)...
+[2017.08.19-00.58.49:536][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.SM_Window_4060]
+[2017.08.19-00.58.49:536][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060]
+[2017.08.19-00.58.49:561][629]LogSavePackage: Save=16.95ms
+[2017.08.19-00.58.49:561][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4060_Auto1F80D188342CB10B738EC92BD8490203D.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060_Auto1.uasset'
+[2017.08.19-00.58.49:562][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060_Auto1.uasset
+[2017.08.19-00.58.49:562][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062] ([1] browsable assets)...
+[2017.08.19-00.58.49:578][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.SM_Window_4062]
+[2017.08.19-00.58.49:578][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062]
+[2017.08.19-00.58.49:606][629]LogSavePackage: Save=19.47ms
+[2017.08.19-00.58.49:606][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4062_Auto1715023CD46E6EFDDD44D50A3A997BA47.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062_Auto1.uasset'
+[2017.08.19-00.58.49:606][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062_Auto1.uasset
+[2017.08.19-00.58.49:607][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072] ([1] browsable assets)...
+[2017.08.19-00.58.49:623][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.SM_Window_4072]
+[2017.08.19-00.58.49:623][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072]
+[2017.08.19-00.58.49:649][629]LogSavePackage: Save=17.93ms
+[2017.08.19-00.58.49:649][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4072_Auto162C1A5D042B10026FC8E6BAD4223CAFE.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072_Auto1.uasset'
+[2017.08.19-00.58.49:649][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072_Auto1.uasset
+[2017.08.19-00.58.49:650][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436] ([1] browsable assets)...
+[2017.08.19-00.58.49:667][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.SM_Window_4436]
+[2017.08.19-00.58.49:667][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436]
+[2017.08.19-00.58.49:693][629]LogSavePackage: Save=17.53ms
+[2017.08.19-00.58.49:693][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4436_Auto1B684E6B645B30E54B74398A6FDF7A0F1.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436_Auto1.uasset'
+[2017.08.19-00.58.49:694][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436_Auto1.uasset
+[2017.08.19-00.58.49:695][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444] ([1] browsable assets)...
+[2017.08.19-00.58.49:711][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.SM_Window_4444]
+[2017.08.19-00.58.49:711][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444]
+[2017.08.19-00.58.49:740][629]LogSavePackage: Save=19.00ms
+[2017.08.19-00.58.49:740][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4444_Auto11889567D45A754B6057635936808FADB.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444_Auto1.uasset'
+[2017.08.19-00.58.49:741][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444_Auto1.uasset
+[2017.08.19-00.58.49:741][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448] ([1] browsable assets)...
+[2017.08.19-00.58.49:757][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.SM_Window_4448]
+[2017.08.19-00.58.49:757][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448]
+[2017.08.19-00.58.49:783][629]LogSavePackage: Save=18.10ms
+[2017.08.19-00.58.49:783][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4448_Auto15E638879414D33FCE7BE49A627228580.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448_Auto1.uasset'
+[2017.08.19-00.58.49:784][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448_Auto1.uasset
+[2017.08.19-00.58.49:784][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452] ([1] browsable assets)...
+[2017.08.19-00.58.49:799][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.SM_Window_4452]
+[2017.08.19-00.58.49:799][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452]
+[2017.08.19-00.58.49:827][629]LogSavePackage: Save=16.99ms
+[2017.08.19-00.58.49:827][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4452_Auto1385B0FB74DEE43043B26049F16BFA81C.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452_Auto1.uasset'
+[2017.08.19-00.58.49:828][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452_Auto1.uasset
+[2017.08.19-00.58.49:828][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454] ([1] browsable assets)...
+[2017.08.19-00.58.49:844][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.SM_Window_4454]
+[2017.08.19-00.58.49:844][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454]
+[2017.08.19-00.58.49:870][629]LogSavePackage: Save=18.10ms
+[2017.08.19-00.58.49:870][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4454_Auto1D292015641BA8E25744143AC28BD0970.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454_Auto1.uasset'
+[2017.08.19-00.58.49:871][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454_Auto1.uasset
+[2017.08.19-00.58.49:871][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460] ([1] browsable assets)...
+[2017.08.19-00.58.49:886][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.SM_Window_4460]
+[2017.08.19-00.58.49:886][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460]
+[2017.08.19-00.58.49:911][629]LogSavePackage: Save=16.99ms
+[2017.08.19-00.58.49:911][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4460_Auto11584E89148D099786A1FB096D3DCC74C.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460_Auto1.uasset'
+[2017.08.19-00.58.49:912][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460_Auto1.uasset
+[2017.08.19-00.58.49:912][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462] ([1] browsable assets)...
+[2017.08.19-00.58.49:927][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.SM_Window_4462]
+[2017.08.19-00.58.49:927][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462]
+[2017.08.19-00.58.49:950][629]LogSavePackage: Save=15.95ms
+[2017.08.19-00.58.49:950][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4462_Auto198B77CA74186207246B3D8A178F6EBE3.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462_Auto1.uasset'
+[2017.08.19-00.58.49:951][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462_Auto1.uasset
+[2017.08.19-00.58.49:951][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472] ([1] browsable assets)...
+[2017.08.19-00.58.49:966][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.SM_Window_4472]
+[2017.08.19-00.58.49:966][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472]
+[2017.08.19-00.58.49:990][629]LogSavePackage: Save=16.47ms
+[2017.08.19-00.58.49:990][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4472_Auto16BF766B74F778574AA2D7AA126869AFA.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472_Auto1.uasset'
+[2017.08.19-00.58.49:991][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472_Auto1.uasset
+[2017.08.19-00.58.49:991][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836] ([1] browsable assets)...
+[2017.08.19-00.58.50:008][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.SM_Window_4836]
+[2017.08.19-00.58.50:008][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836]
+[2017.08.19-00.58.50:035][629]LogSavePackage: Save=16.23ms
+[2017.08.19-00.58.50:035][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4836_Auto1FC2FF00F4ADBEA76692B83BF8ADCC21F.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836_Auto1.uasset'
+[2017.08.19-00.58.50:035][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836_Auto1.uasset
+[2017.08.19-00.58.50:036][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844] ([1] browsable assets)...
+[2017.08.19-00.58.50:050][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.SM_Window_4844]
+[2017.08.19-00.58.50:050][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844]
+[2017.08.19-00.58.50:075][629]LogSavePackage: Save=16.31ms
+[2017.08.19-00.58.50:075][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4844_Auto12879C87747BE9F23AAA8018B769B8147.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844_Auto1.uasset'
+[2017.08.19-00.58.50:076][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844_Auto1.uasset
+[2017.08.19-00.58.50:076][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848] ([1] browsable assets)...
+[2017.08.19-00.58.50:092][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.SM_Window_4848]
+[2017.08.19-00.58.50:092][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848]
+[2017.08.19-00.58.50:117][629]LogSavePackage: Save=16.41ms
+[2017.08.19-00.58.50:117][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4848_Auto180F9DAEA43102756F767CA89F9F9CD42.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848_Auto1.uasset'
+[2017.08.19-00.58.50:118][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848_Auto1.uasset
+[2017.08.19-00.58.50:118][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852] ([1] browsable assets)...
+[2017.08.19-00.58.50:133][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.SM_Window_4852]
+[2017.08.19-00.58.50:133][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852]
+[2017.08.19-00.58.50:157][629]LogSavePackage: Save=16.26ms
+[2017.08.19-00.58.50:157][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4852_Auto1B1B9D4D74CAB5F6183567A87F6D36CF9.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852_Auto1.uasset'
+[2017.08.19-00.58.50:158][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852_Auto1.uasset
+[2017.08.19-00.58.50:158][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854] ([1] browsable assets)...
+[2017.08.19-00.58.50:175][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.SM_Window_4854]
+[2017.08.19-00.58.50:175][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854]
+[2017.08.19-00.58.50:199][629]LogSavePackage: Save=16.73ms
+[2017.08.19-00.58.50:199][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4854_Auto1CB4080B04BDED492F8D4F8A4FFBA9F13.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854_Auto1.uasset'
+[2017.08.19-00.58.50:200][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854_Auto1.uasset
+[2017.08.19-00.58.50:201][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860] ([1] browsable assets)...
+[2017.08.19-00.58.50:215][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.SM_Window_4860]
+[2017.08.19-00.58.50:215][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860]
+[2017.08.19-00.58.50:242][629]LogSavePackage: Save=16.56ms
+[2017.08.19-00.58.50:242][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4860_Auto1ADE08AA6433F8BE8159D33BE3BB8F0FE.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860_Auto1.uasset'
+[2017.08.19-00.58.50:242][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860_Auto1.uasset
+[2017.08.19-00.58.50:242][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862] ([1] browsable assets)...
+[2017.08.19-00.58.50:256][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.SM_Window_4862]
+[2017.08.19-00.58.50:256][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862]
+[2017.08.19-00.58.50:279][629]LogSavePackage: Save=15.48ms
+[2017.08.19-00.58.50:279][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4862_Auto1C9BB75294708D151A518589A77BFC725.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862_Auto1.uasset'
+[2017.08.19-00.58.50:280][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862_Auto1.uasset
+[2017.08.19-00.58.50:280][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872] ([1] browsable assets)...
+[2017.08.19-00.58.50:294][629]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.SM_Window_4872]
+[2017.08.19-00.58.50:294][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872]
+[2017.08.19-00.58.50:316][629]LogSavePackage: Save=15.11ms
+[2017.08.19-00.58.50:316][629]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4872_Auto1C78A5DD14870F592CF16EDAFED67DDBA.tmp' to 'D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872_Auto1.uasset'
+[2017.08.19-00.58.50:317][629]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Saved/Autosaves/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872_Auto1.uasset
+[2017.08.19-00.58.50:317][629]LogFileHelpers: Auto-saving content packages took 2.580
+[2017.08.19-01.32.18:475][643]LogSavePackage: Save=6.78ms
+[2017.08.19-01.32.18:475][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_AA299B8F84DAB5AB9D640A198968706F2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.uasset'
+[2017.08.19-01.32.18:514][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_A.uasset
+[2017.08.19-01.32.18:532][643]LogSavePackage: Save=6.85ms
+[2017.08.19-01.32.18:532][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_BC8E49621463C8739BA9DD7B0D74625C9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.uasset'
+[2017.08.19-01.32.18:539][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_B.uasset
+[2017.08.19-01.32.18:558][643]LogSavePackage: Save=7.97ms
+[2017.08.19-01.32.18:558][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_Casing_CC447DA33425D22E37A663F95E6FEFC2C.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.uasset'
+[2017.08.19-01.32.18:565][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCases/SM_Door_28_Casing_C.uasset
+[2017.08.19-01.32.18:582][643]LogSavePackage: Save=6.21ms
+[2017.08.19-01.32.18:582][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_28_CutoutF008500246F20585D3E0B7890A54DE3D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.uasset'
+[2017.08.19-01.32.18:588][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_28_Cutout.uasset
+[2017.08.19-01.32.18:605][643]LogSavePackage: Save=6.44ms
+[2017.08.19-01.32.18:605][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_30_CutoutCE428B2C4194BE2478A117BAFDDD3D89.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.uasset'
+[2017.08.19-01.32.18:611][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_30_Cutout.uasset
+[2017.08.19-01.32.18:629][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.18:629][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_32_CutoutAF78828841B899532441548482C46290.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.uasset'
+[2017.08.19-01.32.18:636][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_32_Cutout.uasset
+[2017.08.19-01.32.18:653][643]LogSavePackage: Save=6.73ms
+[2017.08.19-01.32.18:653][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_34_CutoutCCE94D824E20C596DF91B2BEA0B3610F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.uasset'
+[2017.08.19-01.32.18:660][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_34_Cutout.uasset
+[2017.08.19-01.32.18:678][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.18:678][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_36_Cutout53B1736A4E1C46DE26B9118A9532BCFE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.uasset'
+[2017.08.19-01.32.18:684][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/DoorCutouts/SM_Door_36_Cutout.uasset
+[2017.08.19-01.32.18:703][643]LogSavePackage: Save=6.03ms
+[2017.08.19-01.32.18:703][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Door_FooterCA92CC6F4D50F0451F8EED86E980B9D7.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.uasset'
+[2017.08.19-01.32.18:710][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Misc/SM_Door_Footer.uasset
+[2017.08.19-01.32.18:727][643]LogSavePackage: Save=6.10ms
+[2017.08.19-01.32.18:727][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_29F3CBAB7436CDB8F7215AA85E64282DE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.uasset'
+[2017.08.19-01.32.18:796][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.uasset
+[2017.08.19-01.32.18:817][643]LogSavePackage: Save=6.76ms
+[2017.08.19-01.32.18:817][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_Beginning1840245D465624BA6C2C23A9CF530101.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.uasset'
+[2017.08.19-01.32.18:824][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.uasset
+[2017.08.19-01.32.18:841][643]LogSavePackage: Save=5.85ms
+[2017.08.19-01.32.18:841][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Wall_End608CBED64D51F247DE0683A9A8063F27.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.uasset'
+[2017.08.19-01.32.18:849][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.uasset
+[2017.08.19-01.32.18:866][643]LogSavePackage: Save=6.29ms
+[2017.08.19-01.32.18:866][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2436DCE65BA44E0BF5643280988F357DB328.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.uasset'
+[2017.08.19-01.32.18:873][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2436.uasset
+[2017.08.19-01.32.18:889][643]LogSavePackage: Save=6.13ms
+[2017.08.19-01.32.18:889][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_24448BDC301C47B9F92D47EC30A7A4C9C124.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.uasset'
+[2017.08.19-01.32.18:897][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2444.uasset
+[2017.08.19-01.32.18:914][643]LogSavePackage: Save=6.26ms
+[2017.08.19-01.32.18:914][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2448AF92AD5B44CE7B0326F76ABB7A8485F8.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.uasset'
+[2017.08.19-01.32.18:921][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2448.uasset
+[2017.08.19-01.32.18:938][643]LogSavePackage: Save=6.09ms
+[2017.08.19-01.32.18:938][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2452353EC9F546B247EEB21401A9266CEE99.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.uasset'
+[2017.08.19-01.32.18:952][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2452.uasset
+[2017.08.19-01.32.18:969][643]LogSavePackage: Save=6.92ms
+[2017.08.19-01.32.18:969][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2454785956804BB8A24D736898A0CC26BDAB.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.uasset'
+[2017.08.19-01.32.18:976][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2454.uasset
+[2017.08.19-01.32.18:993][643]LogSavePackage: Save=6.11ms
+[2017.08.19-01.32.18:993][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2460D7BAD6F44ABD17205AA867B7C3602782.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.uasset'
+[2017.08.19-01.32.18:999][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2460.uasset
+[2017.08.19-01.32.19:069][643]LogSavePackage: Save=59.08ms
+[2017.08.19-01.32.19:069][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_24624126EA534E3FBAC0CC6852A0C3C0168D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.uasset'
+[2017.08.19-01.32.19:076][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2462.uasset
+[2017.08.19-01.32.19:094][643]LogSavePackage: Save=6.36ms
+[2017.08.19-01.32.19:094][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_247214F233804E3CBC8F2E3772AE485976BA.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.uasset'
+[2017.08.19-01.32.19:101][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2472.uasset
+[2017.08.19-01.32.19:117][643]LogSavePackage: Save=6.14ms
+[2017.08.19-01.32.19:118][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2836375E59414BCB9AEED1C10E8BCE6E0F62.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.uasset'
+[2017.08.19-01.32.19:125][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2836.uasset
+[2017.08.19-01.32.19:142][643]LogSavePackage: Save=6.03ms
+[2017.08.19-01.32.19:142][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_28448A73E0874B40B04DA3B2D2938E56B49D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.uasset'
+[2017.08.19-01.32.19:148][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2844.uasset
+[2017.08.19-01.32.19:167][643]LogSavePackage: Save=7.77ms
+[2017.08.19-01.32.19:167][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2848E86F0148498247859A0A0D9BBE080CD4.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.uasset'
+[2017.08.19-01.32.19:173][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2848.uasset
+[2017.08.19-01.32.19:191][643]LogSavePackage: Save=6.32ms
+[2017.08.19-01.32.19:191][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_28527EAC34A44341B4AC3F3364A9F662D3C7.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.uasset'
+[2017.08.19-01.32.19:197][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2852.uasset
+[2017.08.19-01.32.19:215][643]LogSavePackage: Save=6.44ms
+[2017.08.19-01.32.19:215][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2854EC298E8B4095ADC69E3E0AA7B35EB386.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.uasset'
+[2017.08.19-01.32.19:221][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2854.uasset
+[2017.08.19-01.32.19:240][643]LogSavePackage: Save=6.20ms
+[2017.08.19-01.32.19:240][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2860AA88A3794C670DA8647718A353993677.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.uasset'
+[2017.08.19-01.32.19:246][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2860.uasset
+[2017.08.19-01.32.19:265][643]LogSavePackage: Save=6.36ms
+[2017.08.19-01.32.19:265][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_2862596E2B544B0188E621B1E48082D115B9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.uasset'
+[2017.08.19-01.32.19:272][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2862.uasset
+[2017.08.19-01.32.19:291][643]LogSavePackage: Save=6.00ms
+[2017.08.19-01.32.19:291][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_287216D8C49B40F6AC589CA77086749A4F49.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.uasset'
+[2017.08.19-01.32.19:298][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_2872.uasset
+[2017.08.19-01.32.19:315][643]LogSavePackage: Save=6.16ms
+[2017.08.19-01.32.19:316][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3236E2C00FFC43974B1FA05E09B7017C0719.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.uasset'
+[2017.08.19-01.32.19:322][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3236.uasset
+[2017.08.19-01.32.19:342][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.19:342][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_324481CB859B450660A1D62D8DBBE9CCBA60.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.uasset'
+[2017.08.19-01.32.19:348][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3244.uasset
+[2017.08.19-01.32.19:366][643]LogSavePackage: Save=6.68ms
+[2017.08.19-01.32.19:366][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_324895AB07794A80F6FA33CB4DA8C31072B3.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.uasset'
+[2017.08.19-01.32.19:381][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3248.uasset
+[2017.08.19-01.32.19:398][643]LogSavePackage: Save=6.30ms
+[2017.08.19-01.32.19:398][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3252C327562D40AEA84704246DB591F16B7F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.uasset'
+[2017.08.19-01.32.19:405][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3252.uasset
+[2017.08.19-01.32.19:424][643]LogSavePackage: Save=6.23ms
+[2017.08.19-01.32.19:424][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_325467E6F3B2448A133C3A3A8C9F94C5184F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.uasset'
+[2017.08.19-01.32.19:431][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3254.uasset
+[2017.08.19-01.32.19:449][643]LogSavePackage: Save=6.42ms
+[2017.08.19-01.32.19:449][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_32607F1A072C4FF7DB822743B7B52431F272.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.uasset'
+[2017.08.19-01.32.19:456][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3260.uasset
+[2017.08.19-01.32.19:474][643]LogSavePackage: Save=6.63ms
+[2017.08.19-01.32.19:474][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3262837BAEDC4BF5938C02D1FB8BFEDEB6AD.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.uasset'
+[2017.08.19-01.32.19:481][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3262.uasset
+[2017.08.19-01.32.19:500][643]LogSavePackage: Save=6.49ms
+[2017.08.19-01.32.19:500][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_3272623207FF450D3F502312D4B0ED2DC9DB.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.uasset'
+[2017.08.19-01.32.19:506][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_3272.uasset
+[2017.08.19-01.32.19:524][643]LogSavePackage: Save=6.52ms
+[2017.08.19-01.32.19:524][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40365AEEA0CE4EBCA11B9CF6108906ED59C6.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.uasset'
+[2017.08.19-01.32.19:531][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4036.uasset
+[2017.08.19-01.32.19:549][643]LogSavePackage: Save=6.04ms
+[2017.08.19-01.32.19:549][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4044EC8CE1E140E3813485425CB9E04B2CAE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.uasset'
+[2017.08.19-01.32.19:557][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4044.uasset
+[2017.08.19-01.32.19:576][643]LogSavePackage: Save=6.91ms
+[2017.08.19-01.32.19:576][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4048DFC2B6D04F2B8300507C79B2CE787F43.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.uasset'
+[2017.08.19-01.32.19:582][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4048.uasset
+[2017.08.19-01.32.19:600][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:600][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4052E9636F204D206F3356172885A94EFCB9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.uasset'
+[2017.08.19-01.32.19:607][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4052.uasset
+[2017.08.19-01.32.19:625][643]LogSavePackage: Save=6.26ms
+[2017.08.19-01.32.19:625][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40541123BF6F490A02C0F0B9F3808D65CBED.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.uasset'
+[2017.08.19-01.32.19:631][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4054.uasset
+[2017.08.19-01.32.19:649][643]LogSavePackage: Save=6.16ms
+[2017.08.19-01.32.19:649][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40605B9C0B2041AC000F5E53E0932F7ABBD2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.uasset'
+[2017.08.19-01.32.19:656][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4060.uasset
+[2017.08.19-01.32.19:673][643]LogSavePackage: Save=6.40ms
+[2017.08.19-01.32.19:673][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40624455AAB94340C5280D756C9E1BEF01DF.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.uasset'
+[2017.08.19-01.32.19:680][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4062.uasset
+[2017.08.19-01.32.19:699][643]LogSavePackage: Save=6.87ms
+[2017.08.19-01.32.19:699][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_40729FD99A6E471467AA9C67E7992212F294.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.uasset'
+[2017.08.19-01.32.19:705][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4072.uasset
+[2017.08.19-01.32.19:724][643]LogSavePackage: Save=6.19ms
+[2017.08.19-01.32.19:724][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4436A40E63374DEB75A13ECE44BAB3E6C113.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.uasset'
+[2017.08.19-01.32.19:730][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4436.uasset
+[2017.08.19-01.32.19:749][643]LogSavePackage: Save=6.11ms
+[2017.08.19-01.32.19:749][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_444454A2E9234219FA3899448FB4C5EA7C7F.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.uasset'
+[2017.08.19-01.32.19:755][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4444.uasset
+[2017.08.19-01.32.19:797][643]LogSavePackage: Save=30.44ms
+[2017.08.19-01.32.19:797][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4448C7EDF48140A1441A1C27ECA3FD58DDE2.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.uasset'
+[2017.08.19-01.32.19:803][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4448.uasset
+[2017.08.19-01.32.19:821][643]LogSavePackage: Save=6.28ms
+[2017.08.19-01.32.19:821][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44524BFB2ABB41D92D7BBF62EDAED7A31AF4.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.uasset'
+[2017.08.19-01.32.19:827][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4452.uasset
+[2017.08.19-01.32.19:846][643]LogSavePackage: Save=6.10ms
+[2017.08.19-01.32.19:846][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44540EB7DAB4488B299BC6367CA95812CA46.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.uasset'
+[2017.08.19-01.32.19:852][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4454.uasset
+[2017.08.19-01.32.19:871][643]LogSavePackage: Save=6.31ms
+[2017.08.19-01.32.19:871][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4460AA997FCC43B20FC8F056E6B6167240FA.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.uasset'
+[2017.08.19-01.32.19:877][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4460.uasset
+[2017.08.19-01.32.19:896][643]LogSavePackage: Save=6.46ms
+[2017.08.19-01.32.19:896][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_446297A82EAF453BFF25C0E14FB5288FEF3D.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.uasset'
+[2017.08.19-01.32.19:902][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4462.uasset
+[2017.08.19-01.32.19:919][643]LogSavePackage: Save=5.98ms
+[2017.08.19-01.32.19:920][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_44725FEF35F04FABB6F485E9468FDFCEF4EC.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.uasset'
+[2017.08.19-01.32.19:926][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4472.uasset
+[2017.08.19-01.32.19:945][643]LogSavePackage: Save=6.65ms
+[2017.08.19-01.32.19:945][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4836E8FFE3AA468A9C77417A1F96E027593A.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.uasset'
+[2017.08.19-01.32.19:952][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4836.uasset
+[2017.08.19-01.32.19:970][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:970][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_48449A0542B04C926A4FB95190AA2E1DF980.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.uasset'
+[2017.08.19-01.32.19:976][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4844.uasset
+[2017.08.19-01.32.19:995][643]LogSavePackage: Save=6.24ms
+[2017.08.19-01.32.19:995][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_484865AE344941941B26EE963B881EE49BE9.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.uasset'
+[2017.08.19-01.32.20:001][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4848.uasset
+[2017.08.19-01.32.20:019][643]LogSavePackage: Save=6.33ms
+[2017.08.19-01.32.20:019][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_485226ABE6CE436096806E0DCBB1B7F57D65.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.uasset'
+[2017.08.19-01.32.20:025][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4852.uasset
+[2017.08.19-01.32.20:044][643]LogSavePackage: Save=6.60ms
+[2017.08.19-01.32.20:044][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4854D2FC61CD42F6C267B1A7E7A92C611F70.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.uasset'
+[2017.08.19-01.32.20:050][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4854.uasset
+[2017.08.19-01.32.20:069][643]LogSavePackage: Save=6.43ms
+[2017.08.19-01.32.20:069][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_486017677E77404DA0416E3C0B8E9CAF6F61.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.uasset'
+[2017.08.19-01.32.20:074][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4860.uasset
+[2017.08.19-01.32.20:093][643]LogSavePackage: Save=6.47ms
+[2017.08.19-01.32.20:093][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_4862434F1DB442FE1A69A4DA4A87B62AFBA3.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.uasset'
+[2017.08.19-01.32.20:097][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4862.uasset
+[2017.08.19-01.32.20:115][643]LogSavePackage: Save=5.94ms
+[2017.08.19-01.32.20:115][643]LogSavePackage: Moving 'D:/ModularHouse/Saved/SM_Window_487223018A9646A4EAFF150F19B84C5277AE.tmp' to 'D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.uasset'
+[2017.08.19-01.32.20:118][643]LogSavePackage:Display: Finished SavePackage D:/ModularHouse/Content/ModularSuburbanHouse/Environment/Buildings/Mesh/Windows/SM_Window_4872.uasset
+[2017.08.19-01.32.27:736][469]Cmd: QUIT_EDITOR
+[2017.08.19-01.32.27:768][469]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.19-01.32.27:779][469]LogExit: Preparing to exit.
+[2017.08.19-01.32.28:278][469]LogExit: Editor shut down
+[2017.08.19-01.32.28:285][469]LogExit: Transaction tracking system shut down
+[2017.08.19-01.32.28:347][469]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.19-01.32.28:347][469]LogExit: Object subsystem successfully closed.
+[2017.08.19-01.32.28:383][469]LogD3D11RHI: Shutdown
+[2017.08.19-01.32.28:383][469]LogD3D11RHI: CleanupD3DDevice
+[2017.08.19-01.32.28:494][469]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.19-01.32.28:516][469]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.19-01.32.28:517][469]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/Developers/Justin/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Saved/Collections/' was aborted.
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.19-01.32.28:518][469]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.19-01.32.28:519][469]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.19-01.32.28:536][469]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.19-01.32.29:361][469]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.19-01.32.29:362][469]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.19-01.32.29:414][469]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.19-01.32.29:415][469]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.19-01.32.29:513][469]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.19-01.32.29:514][469]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.19-01.32.29:515][469]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.19-01.32.29:615][469]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.19-01.32.29:716][469]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.19-01.32.29:717][469]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.19-01.32.29:722][469]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.19-01.32.29:723][469]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.19-01.32.29:726][469]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for 'D:/ModularHouse/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.19-01.32.29:859][469]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.19-01.32.29:862][469]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.19-01.32.29:863][469]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.19-01.32.29:863][469]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.19-01.32.29:870][469]LogDerivedDataCache: Shutdown
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.19-01.32.29:870][469]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.19-01.32.29:870][469]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.19-01.32.29:871][469]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.19-01.32.29:871][469]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.19-01.32.29:871][469]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF3B3FF2-4DEE-2436-1409-7191256680E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=342c92ed46394c2f005e089436139f89%7Cff45075c8a9c443397ddfdec1e4285a2%7C7e32f187-ea15-4ba5-b983-da622b4f316d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.19-01.32.29:878][469]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.19-01.32.29:879][469]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.19-01.32.29:881][469]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.19-01.32.29:885][469]LogExit: Exiting.
+[2017.08.19-01.32.29:899][469]Log file closed, 08/18/17 18:32:29
