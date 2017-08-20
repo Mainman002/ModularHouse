@@ -1,0 +1,909 @@
+﻿Log file open, 08/19/17 17:05:41
+LogInit:Display: Running engine for game: ModularSuburbs
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2118588773) SRandInit(-2118588773).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107578
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.20-00.05.42:612][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-00.05.42:612][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.20-00.05.42:624][  0]LogInit: Computer: DESKTOP-9RLMK0I
+[2017.08.20-00.05.42:624][  0]LogInit: User: Justin
+[2017.08.20-00.05.42:624][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.20-00.05.42:624][  0]LogInit: High frequency timer resolution =4.232975 MHz
+[2017.08.20-00.05.42:625][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.20-00.05.42:625][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.20-00.05.42:625][  0]LogMemory: Process Physical Memory: 273.82 MB used, 273.82 MB peak
+[2017.08.20-00.05.42:625][  0]LogMemory: Process Virtual Memory: 261.05 MB used, 261.05 MB peak
+[2017.08.20-00.05.42:625][  0]LogMemory: Physical Memory: 4210.32 MB used,  12078.26 MB free, 16288.57 MB total
+[2017.08.20-00.05.42:625][  0]LogMemory: Virtual Memory: 638.63 MB used,  12078.26 MB free, 134217728.00 MB total
+[2017.08.20-00.05.42:735][  0]LogInit: Using OS detected language (en-US).
+[2017.08.20-00.05.42:735][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.20-00.05.42:738][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.20-00.05.43:769][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.20-00.05.44:241][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.20-00.05.44:241][  0]LogD3D11RHI:       8119/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.20-00.05.44:243][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.20-00.05.44:243][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.20-00.05.44:243][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.20-00.05.44:248][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.20-00.05.44:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.20-00.05.44:248][  0]LogWindows: EnumDisplayDevices:
+[2017.08.20-00.05.44:249][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.20-00.05.44:249][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.20-00.05.44:249][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.20-00.05.44:249][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.20-00.05.44:250][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.20-00.05.44:250][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.20-00.05.44:250][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.08.20-00.05.44:250][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.08.20-00.05.44:250][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.20-00.05.44:812][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.20-00.05.44:823][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.20-00.05.44:918][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (D:/ModularSuburbs/Intermediate/Shaders/WorkingDirectory/6540/).
+[2017.08.20-00.05.44:918][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin/AppData/Local/Temp/UnrealShaderWorkingDir/C0DBE67844A0F216CBF7A28BBCE38760/'.
+[2017.08.20-00.05.44:918][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.20-00.05.46:301][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.20-00.05.46:377][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.20-00.05.46:455][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.20-00.05.46:533][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.20-00.05.46:612][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.20-00.05.46:691][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.20-00.05.46:768][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.20-00.05.46:848][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.20-00.05.46:917][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.20-00.05.46:997][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.20-00.05.47:075][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.20-00.05.47:151][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.20-00.05.47:228][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.20-00.05.47:304][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.20-00.05.47:381][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.20-00.05.47:539][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.20-00.05.47:539][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.20-00.05.47:612][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.20-00.05.47:760][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.20-00.05.47:813][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.20-00.05.47:899][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.20-00.05.47:984][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.20-00.05.48:068][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.20-00.05.48:156][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.20-00.05.48:156][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.20-00.05.49:089][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache: Loaded boot cache 0.16s 90MB C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/ModularSuburbs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/ModularSuburbs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.20-00.05.49:247][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.20-00.05.49:273][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.20-00.05.49:285][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.20-00.05.49:302][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.20-00.05.49:302][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.20-00.05.49:303][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-00.05.49:303][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.20-00.05.49:756][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.20-00.05.49:863][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.20-00.05.50:098][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.20-00.05.50:180][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.20-00.05.50:267][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.20-00.05.50:267][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.20-00.05.50:267][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.20-00.05.51:051][  0]LogNetVersion: ModularSuburbs , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3462518015)
+[2017.08.20-00.05.51:137][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.08.20-00.05.51:212][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.030012 seconds
+[2017.08.20-00.05.51:218][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.20-00.05.51:218][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.20-00.05.51:218][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.20-00.05.51:344][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.20-00.05.54:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.20-00.05.55:056][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.20-00.05.55:921][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.20-00.05.56:576][  0]SourceControl: Info Source control is disabled
+[2017.08.20-00.05.56:606][  0]SourceControl: Info Source control is disabled
+[2017.08.20-00.05.56:683][  0]SourceControl: Info Source control is disabled
+[2017.08.20-00.05.56:762][  0]SourceControl: Info Source control is disabled
+[2017.08.20-00.05.57:833][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.20-00.05.58:760][  0]LogEngine: Initializing Engine...
+[2017.08.20-00.05.58:760][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.20-00.05.59:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.20-00.05.59:014][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.20-00.05.59:230][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.20-00.05.59:244][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.20-00.05.59:258][  0]LogInit: FAudioDevice initialized.
+[2017.08.20-00.05.59:346][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Justin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.20-00.05.59:375][  0]LogInit: Texture streaming: Enabled
+[2017.08.20-00.05.59:530][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.20-00.05.59:878][  0]LogInit: Transaction tracking system initialized
+[2017.08.20-00.06.00:374][  0]BlueprintLog: New page: Editor Load
+[2017.08.20-00.06.01:882][  0]LocalizationService: Info Localization service is disabled
+[2017.08.20-00.06.02:953][  0]LogConsoleResponse:Display: 
+[2017.08.20-00.06.03:126][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.20-00.06.03:126][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.20-00.06.03:376][  0]LogFileCache: Scanning file cache for directory 'D:/ModularSuburbs/Content/' took 0.01s
+[2017.08.20-00.06.04:760][  0]SourceControl: Info Source control is disabled
+[2017.08.20-00.06.04:760][  0]Cmd: MAP LOAD FILE="D:/ModularSuburbs/Content/ModularSuburbanHouse/Maps/ModularHouseDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.20-00.06.04:760][  0]LogEditorServer:Warning: Can't find file 'D:/ModularSuburbs/Content/ModularSuburbanHouse/Maps/ModularHouseDemo.umap'
+[2017.08.20-00.06.04:760][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.20-00.06.04:822][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.304ms to complete.
+[2017.08.20-00.06.04:822][  0]LogFileHelpers: Loading map 'ModularHouseDemo' took 0.062
+[2017.08.20-00.06.04:896][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.20-00.06.04:998][  0]LogCollectionManager: Loaded 0 collections in 0.002064 seconds
+[2017.08.20-00.06.05:105][  0]LogFileCache: Scanning file cache for directory 'D:/ModularSuburbs/Saved/Collections/' took 0.01s
+[2017.08.20-00.06.05:105][  0]LogFileCache: Scanning file cache for directory 'D:/ModularSuburbs/Content/Developers/Justin/Collections/' took 0.01s
+[2017.08.20-00.06.05:105][  0]LogFileCache: Scanning file cache for directory 'D:/ModularSuburbs/Content/Collections/' took 0.01s
+[2017.08.20-00.06.05:105][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.20-00.06.05:118][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2329 classes and 491 folders.
+[2017.08.20-00.06.05:220][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.20-00.06.05:275][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.20-00.06.05:343][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.20-00.06.05:441][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.20-00.06.05:446][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.20-00.06.05:450][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.20-00.06.05:456][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.20-00.06.05:584][  0]LogRenderer: Reallocating scene render targets to support 1200x460 NumSamples 1 (Frame:1).
+[2017.08.20-00.06.05:704][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.20-00.06.05:797][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.20-00.06.05:797][  0]LogLoad: (Engine Initialization) Total time: 25.37 seconds
+[2017.08.20-00.06.05:797][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.20-00.06.05:797][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.20-00.06.05:797][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.20-00.06.05:806][  0]LogOcInput: OculusInput pre-init called
+[2017.08.20-00.06.05:806][  0]LogHMD: Starting GearVRController plugin
+[2017.08.20-00.06.05:825][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.20-00.06.05:862][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-00.06.05:892][  1]LogAssetRegistry: Asset discovery search completed in 14.7767 seconds
+[2017.08.20-00.06.05:893][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.20-00.06.05:893][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.08.20-00.06.06:836][109]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-00.06.28:746][728]LogBlueprint:Error: [Compiler ModularHouse] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2017.08.20-00.06.28:746][728]LogBlueprint:Error: [Compiler ModularHouse] Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.08.20-00.06.28:747][728]LogBlueprint:Warning: [Compiler ModularHouse] Warning [0048.32] Compile of ModularHouse failed. 2 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularHouse.ModularHouse)
+[2017.08.20-00.06.28:747][728]LogBlueprint:Warning: [Compiler ModularHouse] Warning [0048.32] Compile of ModularHouse failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularHouse.ModularHouse)
+[2017.08.20-00.06.28:747][728]LogBlueprint:Warning: [Compiler ModularHouse] Warning [0048.32] Compile of ModularHouse failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularHouse.ModularHouse)
+[2017.08.20-00.06.28:797][728]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset.
+[2017.08.20-00.06.28:821][728]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularSuburbs : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset.
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset.
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:821][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset.
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:822][728]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls.Default__ModularWalls_C Referenced by Default__ModularSuburbanHouse_C
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading NULL.
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:822][728]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls.ModularWalls Referenced by ModularSuburbanHouse
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading NULL.
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls'
+[2017.08.20-00.06.28:822][728]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls.ModularWalls_C Referenced by ModularSuburbanHouse_C
+[2017.08.20-00.06.28:822][728]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWalls' while loading NULL.
+[2017.08.20-00.06.28:831][728]LogBlueprint:Error: [Compiler ModularSuburbs] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2017.08.20-00.06.28:831][728]LogBlueprint:Error: [Compiler ModularSuburbs] Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.08.20-00.06.28:916][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.49] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 0 Warning(s) [in 86 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:916][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.49] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:916][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.49] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:916][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.49] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:929][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.50] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 4 Warning(s) [in 13 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:929][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.50] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:929][728]LogBlueprint:Warning: [Compiler ModularSuburbs] Warning [0048.50] Compile of ModularSuburbs failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs)
+[2017.08.20-00.06.28:930][728]LogMetaData: Removing '/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.ModularSuburbs_C' ref from Metadata '/Game/ModularSuburbs/Environment/Buildings/ModularHouse.PackageMetaData'
+[2017.08.20-00.06.28:930][728]LogMetaData: Removing '/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs.SKEL_ModularSuburbs_C' ref from Metadata '/Game/ModularSuburbs/Environment/Buildings/ModularHouse.PackageMetaData'
+[2017.08.20-00.06.28:956][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularSuburbs" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset" SILENT=true
+[2017.08.20-00.06.28:983][728]LogSavePackage: Save=17.18ms
+[2017.08.20-00.06.28:983][728]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbs5325020843AEC36B49AD48B9FCDA7229.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset'
+[2017.08.20-00.06.28:985][728]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularSuburbs.uasset
+[2017.08.20-00.06.53:429][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:429][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:429][639]LoadErrors:Error: Error /Game/ModularSuburbs/Maps/ModularHouseDemo : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor
+[2017.08.20-00.06.53:429][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:429][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:429][639]LoadErrors:Error: Error /Game/ModularSuburbs/Maps/ModularHouseDemo : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/ModularWall
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:431][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:432][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:432][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:432][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData'
+[2017.08.20-00.06.53:432][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:432][639]LoadErrors:Error: Error /Game/ModularSuburbs/Maps/ModularHouseDemo : Can't find file for asset. /Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData
+[2017.08.20-00.06.53:433][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:433][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData'
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:434][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:435][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap.
+[2017.08.20-00.06.53:436][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:437][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:437][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:437][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:458][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:459][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:459][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:459][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:467][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:468][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:469][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData'
+[2017.08.20-00.06.53:482][639]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData.ModularHouseDemo_BuiltData Referenced by PersistentLevel
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Maps/ModularHouseDemo_BuiltData' while loading NULL.
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall'
+[2017.08.20-00.06.53:482][639]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/ModularWall.ModularWall_C Referenced by PersistentLevel
+[2017.08.20-00.06.53:482][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularWall' while loading NULL.
+[2017.08.20-00.06.53:483][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:483][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:483][639]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor'
+[2017.08.20-00.06.53:483][639]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor.ModularFloor_C Referenced by PersistentLevel
+[2017.08.20-00.06.53:483][639]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/ModularFloor' while loading NULL.
+[2017.08.20-00.06.53:495][639]LogAIModule: Creating AISystem for world ModularHouseDemo
+[2017.08.20-00.06.53:522][639]Cmd: MAP LOAD FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularHouseDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.20-00.06.53:522][639]LightingResults: New page: Lighting Build
+[2017.08.20-00.06.53:588][639]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.08.20-00.06.53:588][639]LoadErrors: New page: Loading map: ModularHouseDemo.umap
+[2017.08.20-00.06.53:589][639]MapCheck: New page: Map Check
+[2017.08.20-00.06.53:589][639]LightingResults: New page: Lighting Build
+[2017.08.20-00.06.53:678][639]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.20-00.06.53:719][639]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.20-00.06.53:785][639]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.737ms to complete.
+[2017.08.20-00.06.53:785][639]LogFileHelpers: Loading map 'ModularHouseDemo' took 0.264
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstancedCeiling2': ModularFloor_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularFloor_234
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstancedFoundation2': ModularFloor_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularFloor_234
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstancedWall2': ModularWall_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstancedWallBeginning': ModularWall_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstancedWallEnd': ModularWall_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PhysicsSerializer': InstancedStaticMeshComponent /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularFloor_234.InstancedCeiling2
+[2017.08.20-00.06.53:789][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PhysicsSerializer': InstancedStaticMeshComponent /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularFloor_234.InstancedFoundation2
+[2017.08.20-00.06.53:790][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PhysicsSerializer': InstancedStaticMeshComponent /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417.InstancedWall2
+[2017.08.20-00.06.53:790][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PhysicsSerializer': InstancedStaticMeshComponent /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417.InstancedWallBeginning
+[2017.08.20-00.06.53:790][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PhysicsSerializer': InstancedStaticMeshComponent /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417.InstancedWallEnd
+[2017.08.20-00.06.53:790][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ModularFloor_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularFloor_234
+[2017.08.20-00.06.53:790][639]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ModularWall_C /Game/ModularSuburbs/Maps/ModularHouseDemo.ModularHouseDemo:PersistentLevel.ModularWall_417
+[2017.08.20-00.07.02:794][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.20-00.07.03:049][699]LogSavePackage: Save=238.90ms
+[2017.08.20-00.07.03:049][699]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo134F38B6463636FFE5C81486979CF336.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap'
+[2017.08.20-00.07.03:051][699]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap
+[2017.08.20-00.07.03:079][699]LogFileHelpers: Saving map 'ModularSuburbsDemo' took 0.358
+[2017.08.20-00.07.16:199][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset" SILENT=true
+[2017.08.20-00.07.16:684][227]LogSavePackage: Save=482.72ms
+[2017.08.20-00.07.16:684][227]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo_BuiltDataE4414E4042E5426B8AD4C49FF2E17A26.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset'
+[2017.08.20-00.07.16:686][227]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset
+[2017.08.20-00.07.36:380][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2'
+[2017.08.20-00.07.36:380][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset.
+[2017.08.20-00.07.36:380][549]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularFloor : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2
+[2017.08.20-00.07.36:380][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2'
+[2017.08.20-00.07.36:380][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset.
+[2017.08.20-00.07.36:380][549]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularFloor : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2
+[2017.08.20-00.07.36:381][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2'
+[2017.08.20-00.07.36:381][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset.
+[2017.08.20-00.07.36:381][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2'
+[2017.08.20-00.07.36:381][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset.
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2'
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2' while loading NULL.
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2'
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2' while loading NULL.
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2'
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2' while loading NULL.
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2'
+[2017.08.20-00.07.36:384][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2' while loading NULL.
+[2017.08.20-00.07.36:388][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2'
+[2017.08.20-00.07.36:388][549]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2.SM_Ceiling_2 Referenced by InstancedCeiling2_GEN_VARIABLE
+[2017.08.20-00.07.36:388][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Ceiling_2' while loading NULL.
+[2017.08.20-00.07.36:389][549]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2'
+[2017.08.20-00.07.36:389][549]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2.SM_Foundation_2 Referenced by InstancedFoundation2_GEN_VARIABLE
+[2017.08.20-00.07.36:389][549]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Floors/SM_Foundation_2' while loading NULL.
+[2017.08.20-00.07.36:923][549]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.08.20-00.07.37:628][549]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.20-00.07.37:700][549]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.20-00.07.37:816][550]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.20-00.07.41:221][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2'
+[2017.08.20-00.07.41:221][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:221][795]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularWall : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning'
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:222][795]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularWall : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End'
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:222][795]LoadErrors:Error: Error /Game/ModularSuburbs/Environment/Buildings/ModularWall : Can't find file for asset. /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2'
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning'
+[2017.08.20-00.07.41:222][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:223][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End'
+[2017.08.20-00.07.41:223][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End' while loading D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset.
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2'
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2' while loading NULL.
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning'
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning' while loading NULL.
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End'
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End' while loading NULL.
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2'
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2' while loading NULL.
+[2017.08.20-00.07.41:226][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning'
+[2017.08.20-00.07.41:227][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning' while loading NULL.
+[2017.08.20-00.07.41:227][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End'
+[2017.08.20-00.07.41:227][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End' while loading NULL.
+[2017.08.20-00.07.41:232][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2'
+[2017.08.20-00.07.41:232][795]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2.SM_Wall_2 Referenced by InstancedWall2_GEN_VARIABLE
+[2017.08.20-00.07.41:232][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_2' while loading NULL.
+[2017.08.20-00.07.41:232][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning'
+[2017.08.20-00.07.41:232][795]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning.SM_Wall_Beginning Referenced by InstancedWallBeginning_GEN_VARIABLE
+[2017.08.20-00.07.41:232][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_Beginning' while loading NULL.
+[2017.08.20-00.07.41:232][795]LogLinker:Warning: Can't find file '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End'
+[2017.08.20-00.07.41:233][795]LoadErrors: Info Failed to load /Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End.SM_Wall_End Referenced by InstancedWallEnd_GEN_VARIABLE
+[2017.08.20-00.07.41:233][795]LogLinker:Warning: Can't find file for asset '/Game/ModularSuburbanHouse/Environment/Buildings/Mesh/Walls/SM_Wall_End' while loading NULL.
+[2017.08.20-00.07.56:807][860]MapCheck: New page: Map Check
+[2017.08.20-00.07.56:952][860]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.20-00.07.56:969][860]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.20-00.07.57:425][860]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2017.08.20-00.07.57:443][860]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2017.08.20-00.07.57:478][860]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.20-00.07.58:802][860]TextureStreamingBuild:Display: Compiling optional shaders took 1.398 seconds.
+[2017.08.20-00.07.58:803][860]LogLevel:Display: Export Material TexCoord Scales took 0.000 seconds.
+[2017.08.20-00.07.58:807][860]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.20-00.07.58:851][860]LightingResults: New page: Lighting Build - Aug 19, 2017, 10:07:58 AM
+[2017.08.20-00.07.59:235][860]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.20-00.07.59:310][860]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.20-00.07.59:380][860]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.20-00.08.00:549][860]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.20-00.08.00:549][860]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6540
+[2017.08.20-00.08.04:597][860]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.20-00.08.04:597][860]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.20-00.08.04:597][860]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.20-00.08.04:597][860]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.20-00.08.04:597][860]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.20-00.08.05:079][860]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.20-00.08.05:080][860]MapCheck: New page: ModularSuburbsDemo - Aug 19, 2017, 10:08:05 AM
+[2017.08.20-00.08.05:121][860]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.08.20-00.08.05:121][860]MapCheck:Warning: Warning ModularFloor_150 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.05:121][860]MapCheck:Warning: Warning ModularFloor_150 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.05:121][860]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.05:121][860]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.05:121][860]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.05:202][860]MapCheck: Info Map check complete: 1 Error(s), 5 Warning(s), took 122.419ms to complete.
+[2017.08.20-00.08.05:225][860]LogEditorBuildUtils: Build time 0:08
+[2017.08.20-00.08.05:294][860]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.08.20-00.08.05:305][860]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.08.20-00.08.24:295][579]LogRenderer: Reallocating scene render targets to support 1916x1016 NumSamples 1 (Frame:1).
+[2017.08.20-00.08.29:643][797]Job is a success!
+[2017.08.20-00.08.30:298][798]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.08.20-00.08.30:298][798]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.08.20-00.08.30:298][798]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2017.08.20-00.08.30:299][798]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2017.08.20-00.08.31:499][798]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 256X64)
+[2017.08.20-00.08.31:533][798]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 128X64)
+[2017.08.20-00.08.31:533][798]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64)
+[2017.08.20-00.08.31:533][798]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 128X64)
+[2017.08.20-00.08.31:533][798]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2017.08.20-00.08.31:533][798]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2017.08.20-00.08.31:595][798]Lightmass on DESKTOP-9RLMK0I: 20.8 sec total, 409 ms importing, 612 ms setup, 3.32 sec photons, 16.4 sec processing, 0 ms extra exporting [64/64 mappings]. Threads: 1:55 min total, 1:18 min processing.
+[2017.08.20-00.08.31:662][798]LogStaticLightingSystem: Illumination: 32.8 sec (447 ms encoding lightmaps, 1.22 sec encoding shadowmaps)
+[2017.08.20-00.08.31:662][798]LogStaticLightingSystem: Lightmap texture memory:  2.4 MB (2.4 MB streaming, 0.0 MB non-streaming), 42 textures
+[2017.08.20-00.08.31:662][798]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 21 textures
+[2017.08.20-00.08.32:504][798]DumpUnbuiltLightIteractions
+[2017.08.20-00.08.32:504][798]Lights with unbuilt interactions: 0
+[2017.08.20-00.08.32:504][798]
+[2017.08.20-00.08.32:504][798]Primitives with unbuilt interactions: 0
+[2017.08.20-00.08.32:517][799]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.20-00.08.32:517][799]MapCheck: New page: ModularSuburbsDemo - Aug 19, 2017, 10:08:32 AM
+[2017.08.20-00.08.32:520][799]MapCheck:Warning: Warning ModularFloor_150 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.32:520][799]MapCheck:Warning: Warning ModularFloor_150 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.32:520][799]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.32:520][799]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.32:520][799]MapCheck:Warning: Warning ModularWall_177 Static mesh actor has NULL StaticMesh property 
+[2017.08.20-00.08.32:601][799]MapCheck: Info Map check complete: 0 Error(s), 5 Warning(s), took 83.839ms to complete.
+[2017.08.20-00.08.53:434][121]BlueprintLog: New page: Compile ModularWall
+[2017.08.20-00.08.54:092][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularWall" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset" SILENT=true
+[2017.08.20-00.08.54:206][150]LogSavePackage: Save=98.76ms
+[2017.08.20-00.08.54:206][150]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularWallBA9645AF426A91FBEF804FA67194FAC6.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset'
+[2017.08.20-00.08.54:210][150]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset
+[2017.08.20-00.09.09:971][154]BlueprintLog: New page: Compile ModularFloor
+[2017.08.20-00.09.10:517][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularFloor" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset" SILENT=true
+[2017.08.20-00.09.10:611][173]LogSavePackage: Save=80.40ms
+[2017.08.20-00.09.10:611][173]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularFloorF7D67ED846F340D4A7E5E78119B3060C.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset'
+[2017.08.20-00.09.10:613][173]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularFloor.uasset
+[2017.08.20-00.09.12:116][271]LogEditorViewport: Clicking Background
+[2017.08.20-00.09.23:906][ 99]LogEditorViewport: Clicking Background
+[2017.08.20-00.09.25:012][180]LogEditorViewport: Clicking on Actor (LMB): ModularFloor_C (ModularFloor)
+[2017.08.20-00.09.26:976][289]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.09.31:665][570]LogEditorViewport: Clicking on Actor (context menu): ModularFloor_C (ModularFloor)
+[2017.08.20-00.09.32:863][643]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.09.33:673][694]LogEditorViewport: Clicking on Actor (context menu): ModularFloor_C (ModularFloor)
+[2017.08.20-00.09.36:812][886]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.09.37:371][914]LogEditorViewport: Clicking on Actor (context menu): ModularFloor_C (ModularFloor)
+[2017.08.20-00.09.39:954][ 62]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.09.40:443][ 92]LogEditorViewport: Clicking on Actor (context menu): ModularWall_C (ModularWall)
+[2017.08.20-00.10.09:541][724]LogEditorViewport: Clicking on Actor (context menu): ModularWall_C (ModularWall)
+[2017.08.20-00.10.27:233][735]LogEditorViewport: Clicking on Actor (context menu): ModularWall_C (ModularWall)
+[2017.08.20-00.10.45:452][774]LogEditorViewport: Clicking on Actor (context menu): ModularWall_C (ModularWall)
+[2017.08.20-00.11.16:787][627]LogEditorViewport: Clicking on Actor (LMB): ModularFloor_C (ModularFloor)
+[2017.08.20-00.11.19:992][832]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.11.26:786][265]LogEditorViewport: Clicking on Actor (LMB): ModularFloor_C (ModularFloor)
+[2017.08.20-00.11.30:306][494]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.11.33:569][709]LogEditorViewport: Clicking on Actor (LMB): ModularFloor_C (ModularFloor)
+[2017.08.20-00.11.35:497][833]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.11.38:660][ 40]LogEditorViewport: Clicking on Actor (LMB): ModularFloor_C (ModularFloor)
+[2017.08.20-00.11.40:659][168]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.11.49:513][740]Cmd: TRANSACTION UNDO
+[2017.08.20-00.11.49:513][740]LogEditorTransaction: Undo Move Actors
+[2017.08.20-00.11.50:522][800]Cmd: MODE GRID=1
+[2017.08.20-00.11.58:798][346]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.20-00.12.06:761][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.20-00.12.07:049][858]LogSavePackage: Save=242.41ms
+[2017.08.20-00.12.07:049][858]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo4C8184CB4101232A030DA9AFCAAE55FE.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap'
+[2017.08.20-00.12.07:051][858]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap
+[2017.08.20-00.12.07:082][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset" SILENT=true
+[2017.08.20-00.12.07:639][858]LogSavePackage: Save=494.73ms
+[2017.08.20-00.12.07:639][858]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo_BuiltData68FB23BC4975DBFCCDE18CBC2B5F1A17.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset'
+[2017.08.20-00.12.07:644][858]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset
+[2017.08.20-00.13.47:279][561]LogEditorViewport: Clicking on Actor (LMB): ModularWall_C (ModularWall)
+[2017.08.20-00.14.10:762][163]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.20-00.14.24:319][147]BlueprintLog: New page: Compile ModularWall
+[2017.08.20-00.14.24:971][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularWall" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset" SILENT=true
+[2017.08.20-00.14.25:081][161]LogSavePackage: Save=98.56ms
+[2017.08.20-00.14.25:081][161]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularWallF8FDF9C4462316250BCD7E99AE51A8B2.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset'
+[2017.08.20-00.14.25:083][161]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset
+[2017.08.20-00.15.59:143][345]BlueprintLog: New page: Compile ModularWall
+[2017.08.20-00.16.00:227][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularWall" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset" SILENT=true
+[2017.08.20-00.16.00:335][414]LogSavePackage: Save=101.32ms
+[2017.08.20-00.16.00:335][414]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularWallEF3183CE419AD1C155C73AA0ED40087D.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset'
+[2017.08.20-00.16.00:337][414]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset
+[2017.08.20-00.21.56:114][ 17]BlueprintLog: New page: Compile ModularWall
+[2017.08.20-00.21.56:955][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularWall" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset" SILENT=true
+[2017.08.20-00.21.57:073][ 41]LogSavePackage: Save=105.30ms
+[2017.08.20-00.21.57:073][ 41]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularWallAFD3E68741647C3E7075C58A36DACDE9.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset'
+[2017.08.20-00.21.57:074][ 41]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset
+[2017.08.20-00.22.24:435][227]LogSavePackage: Save=245.64ms
+[2017.08.20-00.22.24:435][227]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo_Auto1B4AD209149D5D1779F615AB70C9A1949.tmp' to 'D:/ModularSuburbs/Saved/Autosaves/Game/ModularSuburbs/Maps/ModularSuburbsDemo_Auto1.umap'
+[2017.08.20-00.22.24:435][227]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Saved/Autosaves/Game/ModularSuburbs/Maps/ModularSuburbsDemo_Auto1.umap
+[2017.08.20-00.22.24:437][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ModularSuburbs/Maps/ModularSuburbsDemo' took 0.288
+[2017.08.20-00.22.24:437][227]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2017.08.20-00.22.45:095][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Environment/Buildings/ModularWall" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset" SILENT=true
+[2017.08.20-00.22.45:197][479]LogSavePackage: Save=93.64ms
+[2017.08.20-00.22.45:197][479]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularWall256EF63841F08B6D106B449A9A57AB97.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset'
+[2017.08.20-00.22.45:197][479]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Environment/Buildings/ModularWall.uasset
+[2017.08.20-00.22.51:726][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.20-00.22.51:989][927]LogSavePackage: Save=233.46ms
+[2017.08.20-00.22.51:989][927]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemoA97021794CAF91F233568095BC3AB82B.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap'
+[2017.08.20-00.22.51:991][927]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo.umap
+[2017.08.20-00.22.52:018][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData" FILE="D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset" SILENT=true
+[2017.08.20-00.22.52:525][927]LogSavePackage: Save=468.14ms
+[2017.08.20-00.22.52:525][927]LogSavePackage: Moving 'D:/ModularSuburbs/Saved/ModularSuburbsDemo_BuiltDataD4D482B94F2567208C41AA80D1055424.tmp' to 'D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset'
+[2017.08.20-00.22.52:528][927]LogSavePackage:Display: Finished SavePackage D:/ModularSuburbs/Content/ModularSuburbs/Maps/ModularSuburbsDemo_BuiltData.uasset
+[2017.08.20-00.22.54:073][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.20-00.22.54:127][ 18]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.20-00.22.54:310][ 19]Cmd: QUIT_EDITOR
+[2017.08.20-00.22.54:335][ 19]LogExit: Preparing to exit.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:475][ 19]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.08.20-00.22.55:521][ 19]LogExit: Editor shut down
+[2017.08.20-00.22.55:528][ 19]LogExit: Transaction tracking system shut down
+[2017.08.20-00.22.55:649][ 19]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.20-00.22.55:649][ 19]LogExit: Object subsystem successfully closed.
+[2017.08.20-00.22.55:673][ 19]LogD3D11RHI: Shutdown
+[2017.08.20-00.22.55:673][ 19]LogD3D11RHI: CleanupD3DDevice
+[2017.08.20-00.22.55:814][ 19]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.08.20-00.22.55:837][ 19]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.08.20-00.22.55:837][ 19]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.08.20-00.22.55:838][ 19]LogDirectoryWatcher: A directory notification for 'D:/ModularSuburbs/Content/Collections/' was aborted.
+[2017.08.20-00.22.55:838][ 19]LogDirectoryWatcher: A directory notification for 'D:/ModularSuburbs/Content/Developers/Justin/Collections/' was aborted.
+[2017.08.20-00.22.55:838][ 19]LogDirectoryWatcher: A directory notification for 'D:/ModularSuburbs/Saved/Collections/' was aborted.
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.20-00.22.55:838][ 19]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.20-00.22.55:839][ 19]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.20-00.22.56:717][ 19]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.20-00.22.56:718][ 19]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.20-00.22.56:770][ 19]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.20-00.22.56:778][ 19]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.20-00.22.56:838][ 19]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.20-00.22.56:839][ 19]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.20-00.22.56:839][ 19]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.20-00.22.56:839][ 19]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.20-00.22.56:840][ 19]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.20-00.22.56:940][ 19]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.20-00.22.57:041][ 19]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.20-00.22.57:042][ 19]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.20-00.22.57:045][ 19]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.20-00.22.57:217][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.20-00.22.57:217][ 19]LogDirectoryWatcher: A directory notification for 'D:/ModularSuburbs/Content/' was aborted.
+[2017.08.20-00.22.57:217][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.20-00.22.57:217][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.20-00.22.57:220][ 19]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.20-00.22.57:221][ 19]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.20-00.22.57:260][ 19]LogDerivedDataCache: Shutdown
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.20-00.22.57:260][ 19]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.20-00.22.57:261][ 19]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.20-00.22.57:261][ 19]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.20-00.22.57:261][ 19]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.20-00.22.57:261][ 19]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B81E24F8A-4AE0-1595-BC3E-BEA85EACD6AE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=342c92ed46394c2f005e089436139f89%7Cff45075c8a9c443397ddfdec1e4285a2%7C7e32f187-ea15-4ba5-b983-da622b4f316d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.20-00.22.57:264][ 19]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.20-00.22.57:266][ 19]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.20-00.22.57:267][ 19]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.20-00.22.57:268][ 19]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.20-00.22.57:270][ 19]LogExit: Exiting.
+[2017.08.20-00.22.57:283][ 19]Log file closed, 08/19/17 17:22:57
